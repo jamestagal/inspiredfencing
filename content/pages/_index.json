@@ -1,1 +1,238 @@
-{}
+{
+	"components": [
+		{
+			"name": "hero",
+			"fields": {
+				"title1": "Trusted",
+                "title2": "Fencing Contractor",
+                "title3": "servicing greater Melbourne",
+				"description": "Inspired Fencing provides a range of fencing solutions for the Mornington Peninsula, South East Melbourne & South Gippsland surrounds. We bring over 10 years of experience in the fencing industry to transform your home from the outside building quality, secure and elegent fences.",
+                "image": {
+                    "url": "media/img/member1.jpeg",
+                    "alt": "portrait of Rusty Shackleford"
+                },
+                "image-m": {
+                    "url": "media/img/member1.jpeg",
+                    "alt": "portrait of Rusty Shackleford"
+                },
+                "image-t": {
+                    "url": "media/img/member1.jpeg",
+                    "alt": "portrait of Rusty Shackleford"
+                },
+                "button": {
+					"title": "Get a quote",
+					"url": "."
+				},
+				"stat1": {
+					"number": "10+",
+					"desc": "Years Experience"
+				},
+				"stat2": {
+					"number": "100's",
+					"desc": "Happy Customers"
+				},
+				"stat3": {
+					"number": "5/5",
+					"desc": "Reviews"
+				}
+			}
+		},
+		{
+			"name": "next_match",
+			"fields": {
+				"service1": {
+					"title": "FULL KITCHEN REMODEL",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
+					"icon": {
+						"url": "media/svg/toolbox.svg",
+						"alt": "toolbox icon"
+					}
+				},
+				"service2": {
+					"title": "EXTERIOR REPAIRS",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "building icon"
+					}
+				},
+				"service3": {
+					"title": "UTILITY MAINTENANCE",
+					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
+					"icon": {
+						"url": "media/svg/gear.svg",
+						"alt": "gear icon"
+					}
+				}
+			}
+		},
+		{
+			"name": "gallery_453",
+			"fields": {
+				"title": "PORTFOLIO",
+				"subtitle": "Our Gallery",
+				"gallery1": {
+					"category": "one",
+					"image1": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image2": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image3": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image4": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					}
+				},
+				"gallery2": {
+					"category": "two",
+					"image1": {
+						"url": "media/img/leaves3.jpeg",
+						"alt": "leaves"
+					},
+					"image2": {
+						"url": "media/img/leaves3.jpeg",
+						"alt": "leaves"
+					},
+					"image3": {
+						"url": "media/img/leaves3.jpeg",
+						"alt": "leaves"
+					},
+					"image4": {
+						"url": "media/img/leaves3.jpeg",
+						"alt": "leaves"
+					}
+				},
+				"gallery3": {
+					"category": "three",
+					"image1": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image2": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image3": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					},
+					"image4": {
+						"url": "media/img/leaves2.jpeg",
+						"alt": "leaves"
+					}
+				}
+			}
+		},
+		{
+			"name": "meet_team_221",
+			"fields": {
+				"title": "MEET THE TEAM",
+				"subtitle": "The People Behind CodeStitch",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit dolor volutpat porttitor sagittis nunc nisl. Sagittis sit pellentesque gravida viverra. Leo ut sed euismod tortor risus et. Ornare non neque, leo, ornare. Lorem ipsum dolor sit amet.",
+				"cards": [
+					{
+						"name": "John Doe",
+						"title": "Founder",
+						"blurb": "Former co-founder of CodeSnatch. Early staff at Pixelbit and Co-oder.",
+						"image": {
+							"url": "media/img/member1.jpeg",
+							"alt": "portrait of John Doe"
+						},
+						"socials": {
+							"x": ".",
+							"linkedin": "."
+						}
+					},
+					{
+						"name": "Rusty Shackleford",
+						"title": "CMO",
+						"blurb": "Former co-founder of CodeSnatch. Early staff at Pixelbit and Co-oder.",
+						"image": {
+							"url": "media/img/member1.jpeg",
+							"alt": "portrait of Rusty Shackleford"
+						},
+						"socials": {
+							"x": ".",
+							"linkedin": "."
+						}
+					},
+					{
+						"name": "Joe Shmo",
+						"title": "CFO",
+						"blurb": "Former co-founder of CodeSnatch. Early staff at Pixelbit and Co-oder.",
+						"image": {
+							"url": "media/img/member1.jpeg",
+							"alt": "portrait of Joe Shmo"
+						},
+						"socials": {
+							"x": ".",
+							"linkedin": "."
+						}
+					}
+				],
+				"socialIcon": {
+					"x": "media/svg/twitter-grey.svg",
+					"linkedin": "media/svg/linkedin-grey.svg"
+				},
+				"button": {
+					"title": "Read More",
+					"url": "."
+				}
+			}
+		},
+		{
+			"name": "reviews_727",
+			"fields": {
+				"title": "TESTIMONIALS",
+				"subtitle": "Trusted by Thousand of People & Companies",
+				"description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+				"review1": {
+					"name": "Daniel",
+					"title": "Loving the color!",
+					"quote": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iste vitae, aliquam temporibus modi libero dolorem rerum? Dolore soluta eligendi mollitia. Doloribus et exercitationem cupiditate?"
+				},
+				"review2": {
+					"name": "Bill",
+					"title": "Affordable",
+					"quote": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iste vitae, aliquam temporibus modi libero dolorem rerum? Dolore soluta eligendi mollitia. Doloribus et exercitationem cupiditate?"
+				},
+				"icon": {
+					"url": "media/svg/yellow-quote.svg",
+					"alt": "yellow quote icon"
+				}
+			}
+		},
+		{
+			"name": "cta_51",
+			"fields": {
+				"title": "CONTACT US",
+				"subtitle": "Get It Done With Us Today",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.",
+				"button": {
+					"title": "Gret A Free Quote",
+					"url": "."
+				},
+				"image": {
+					"url": "media/img/cabinets.jpeg",
+					"alt": "kitchen cabinets"
+				},
+				"imageM": {
+					"url": "media/img/cabinets-m.jpeg",
+					"alt": "kitchen cabinets"
+				}
+			}
+		}
+	],
+	"meta": {
+		"title": "Capital Tigers",
+		"desc": "A template for the Build-Time Render Engine Plenti",
+		"keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+	}
+}
