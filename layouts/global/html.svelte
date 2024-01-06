@@ -17,9 +17,9 @@
   <Head title={content.filename} {env} />
   <body>
     <!--Screen reader skip main nav-->
-    <a class="skip" aria-label="skip to main content" href="#main"
+<!--     <a class="skip" aria-label="skip to main content" href="#main"
       >Click To Skip To Main Content</a
-    >
+    > -->
     {#if user && $user.isAuthenticated}
       <svelte:component this={$user.menu} {user} bind:content />
     {/if}
