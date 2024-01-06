@@ -14,5 +14,11 @@
     <link rel="stylesheet" href="global.css" />
   <link rel="icon" type="image/svg+xml" href="/media/logo.svg">
   <link rel='stylesheet' href={`/${env.entrypointJS}/bundle.css`}>
-  
+  <link
+    rel="preload"
+    href="fonts/roboto-v29-latin-regular.woff2 "
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
 </head>
