@@ -1,6 +1,7 @@
 :root {
     /* Add these styles to your global stylesheet, which is used across all site pages. You only need to do this once. All elements in the library derive their variables and base styles from this central sheet, simplifying site-wide edits. For instance, if you want to modify how your h2's appear across the site, you just update it once in the global styles, and the changes apply everywhere. */
-    --primary: #ff6a3e;
+    --primary: #73b21a;
+    --background: #171717;
     --primaryLight: #ffba43;
     --secondary: #ffba43;
     --secondaryLight: #ffba43;
@@ -15,12 +16,57 @@
     /* 60px - 100px top and bottom */
     --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
 }
+ /* roboto-regular - latin */
+ @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: local(""),
+      url("../static/fonts/roboto-v29-latin-regular.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../static/fonts/roboto-v29-latin-regular.woff") format("woff");
 
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 700;
+    src: local(""),
+      url("../static/fonts/roboto-v29-latin-700.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../static/fonts/roboto-v29-latin-700.woff") format("woff");
+
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-display: swap;
+    font-weight: 900;
+    src: local(""),
+      url("../static/fonts/roboto-v29-latin-900.woff2") format("woff2"),
+      /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url("../static/fonts/roboto-v29-latin-900.woff") format("woff");
+
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
 body {
     margin: 0;
     padding: 0;
 }
-
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: "Roboto", Arial, sans-serif;
+    color: var(--bodyTextColor);
+    overflow-x: hidden;
+  }
 *, *:before, *:after {
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
@@ -66,7 +112,7 @@ body,
 html {
     /* reset margin and padding so there's no gap between the nav and the screen edges */
     margin: 0;
-       padding: 0;
+    padding: 0;
 }
 
 /* Mobile - 1023px */
@@ -90,7 +136,7 @@ html {
         width: 40%;
         max-width: 9.125rem;
         height: 100%;
-        background: var(--primary);
+        background: var(--background);
         opacity: 1;
         position: absolute;
         display: block;
@@ -461,7 +507,7 @@ html {
         padding: 1rem 1rem 0 1rem;
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
-        background-color: #fff;
+        background-color: var(--headerColor);
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         position: fixed;
         z-index: 10000;
@@ -493,7 +539,7 @@ html {
         height: 100%;
         /* 32px - 48px */
         padding: 1rem clamp(2rem, 3vw, 3rem);
-        background-color: var(--primary);
+        background-color: var(--background);
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
         display: flex;
@@ -585,7 +631,7 @@ html {
         font-size: 1rem;
         font-weight: 700;
         margin: 0;
-        color: var(--headerColor);
+        color: var(--bodyTextColorWhite);
         display: block;
     }
     #cs-navigation .cs-link {
@@ -594,7 +640,7 @@ html {
         text-align: inherit;
         text-decoration: none;
         margin: 0;
-        color: var(--bodyTextColor);
+        color: var(--bodyTextColorWhite);
         display: block;
         transition: color 0.3s;
     }
@@ -639,7 +685,7 @@ html {
         line-height: 1.5em;
         text-decoration: none;
         margin: 0;
-        color: var(--bodyTextColor);
+        color: var(--bodyTextColorWhite);
         display: block;
         position: relative;
     }
@@ -702,5 +748,204 @@ html {
         border-radius: 0;
     }
 }
+/*-- -------------------------- -->
+<---            Hero            -->
+<--- -------------------------- -*/
 
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #hero-288 {
+        /* centers button */
+        text-align: center;
+        /* 116px - 164px top */
+        /* 60px - 100px  bottom */
+        padding: clamp(7.25rem, 16.82vw, 10.25rem) 1rem
+            clamp(3.75rem, 7.82vw, 6.25rem);
+        position: relative;
+    }
+    #hero-288 .cs-container {
+        width: 100%;
+        max-width: 80rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #hero-288 .cs-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #hero-288 .cs-title {
+        /* 39px - 61px */
+        font-size: clamp(2.4375rem, 5vw, 3.8125rem);
+        font-weight: 900;
+        line-height: 1em;
+        text-align: left;
+        max-width: 43.75rem;
+        margin: 0 auto 1rem;
+        color: var(--headerColor);
+        position: relative;
+    }
+    #hero-288 .cs-text {
+        /* 16px - 20px */
+        font-size: clamp(1rem, 1.5vw, 1.25rem);
+        line-height: 1.5em;
+        text-align: center;
+        width: 100%;
+        max-width: 33.1875rem;
+        margin: 0;
+        /* 28px - 40px */
+        margin-bottom: clamp(1.75rem, 3.92vw, 2.5rem);
+        color: var(--bodyTextColor);
+    }
+    #hero-288 .cs-button-solid {
+        font-size: 1rem;
+        /* 46px - 56px */
+        line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+        text-decoration: none;
+        font-weight: 700;
+        text-align: center;
+        margin: auto;
+        color: var(--headerColor);
+        min-width: 9.375rem;
+        margin: 0;
+        padding: 0 1.5rem;
+        background-color: var(--primary);
+        border-radius: 0.25rem;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        /* prevents padding from adding to the width */
+        box-sizing: border-box;
+        transition: color 0.3s;
+    }
+    #hero-288 .cs-button-solid:before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 0%;
+        background: var(--background);
+        opacity: 1;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        border-radius: 0.25rem;
+        transition: width 0.3s;
+    }
+    #hero-288 .cs-button-solid:hover {
+        color: #fff;
+    }
+    #hero-288 .cs-button-solid:hover:before {
+        width: 100%;
+    }
+    #hero-288 .cs-stats-group {
+        max-width: 32.625rem;
+        margin: 0;
+        /* 40px - 98px */
+        margin-top: clamp(2.5rem, calc(7.3vw), 6.125rem);
+        /* 40px - 48px */
+        margin-bottom: clamp(2.5rem, 10vw, 3rem);
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* 20px - 40px */
+        column-gap: clamp(1.25rem, 5.9vw, 2.5rem);
+    }
+    #hero-288 .cs-item {
+        list-style: none;
+        width: auto;
+    }
+    #hero-288 .cs-number {
+        /* 25px - 49px */
+        font-size: clamp(1.5625rem, 3.8vw, 3.0625rem);
+        line-height: 1.2em;
+        font-weight: 700;
+        color: var(--headerColor);
+        display: block;
+    }
+    #hero-288 .cs-desc {
+        /* 14px - 16px */
+        font-size: clamp(0.875rem, 2.1vw, 1rem);
+        line-height: 1.5em;
+        color: #767676;
+    }
+    #hero-288 .cs-picture {
+        width: 100%;
+        max-width: 36.5625rem;
+        /* 380px - 453px */
+        height: clamp(23.75rem, 59vw, 28.3215rem);
+        border-radius: 1rem;
+        /* clips the img tag corners */
+        overflow: hidden;
+        display: block;
+        position: relative;
+    }
+    #hero-288 .cs-picture img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        /* makes image act as a background image */
+        object-fit: cover;
+    }
+    #hero-288 .cs-waves {
+        width: 100%;
+        height: 30%;
+        background-color: var(--primary);
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+    }
+    #hero-288 .cs-waves img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        /* makes image act as a background image */
+        object-fit: cover;
+    }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #hero-288 {
+        text-align: left;
+    }
+    #hero-288 .cs-container {
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 3.25rem;
+    }
+    #hero-288 .cs-content {
+        width: 45%;
+        /* prevents flex-box from squishing it */
+        flex: none;
+        align-items: flex-start;
+    }
+    #hero-288 .cs-title,
+    #hero-288 .cs-text {
+        text-align: left;
+    }
+    #hero-288 .cs-picture {
+        max-width: 39.375rem;
+        /* 623px - 814px */
+        height: clamp(38.9375rem, 60vw, 50.875rem);
+    }
+    #hero-288 .cs-waves {
+        height: 100%;
+        width: calc(49vw);
+        left: 50%;
+        margin-left: 12.5rem;
+    }
+}
+
+                                
                                 
