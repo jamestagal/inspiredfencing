@@ -1,5 +1,5 @@
 <script>
-    export let title1, title2, title3, description, stat1, stat2, stat3, button;
+    export let title1, title2, title3, description, stat1, stat2, stat3, button, image, image_m, image_t;
 </script>
 <!-- ============================================ -->
 <!--                   Hero                       -->
@@ -32,21 +32,21 @@
     <picture class="cs-picture">
       <source
         media="(max-width: 600px)"
-        srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/lawyer-m.jpg"
+        srcset="{image_m.url}"
       />
       <source
         media="(min-width: 601px)"
-        srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/lawyer-t.jpg"
+        srcset="{image_t.url}"
       />
       <source
         media="(min-width: 1024px)"
-        srcset="https://csimg.nyc3.digitaloceanspaces.com/Hero/lawyer.jpg"
+        srcset="{image.url}"
       />
       <img
         aria-hidden="true"
         decoding="async"
-        src="https://csimg.nyc3.digitaloceanspaces.com/Hero/lawyer.jpg"
-        alt="lawyer"
+        src="{image.url}"
+        alt="{image.alt}"
         width="630"
         height="814"
       />
