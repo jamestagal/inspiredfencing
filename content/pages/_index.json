@@ -1,25 +1,25 @@
 {
 	"components": [
 		{
-			"name": "hero",
+			"name": "hero_288",
 			"fields": {
 				"title1": "Trusted",
-                "title2": "Fencing Contractor",
-                "title3": "servicing greater Melbourne",
-				"description": "Inspired Fencing provides a range of fencing solutions for the Mornington Peninsula, South East Melbourne & South Gippsland surrounds. We bring over 10 years of experience in the fencing industry to transform your home from the outside building quality, secure and elegent fences.",
-                "image": {
-                    "url": "media/img/member1.jpeg",
-                    "alt": "portrait of Rusty Shackleford"
-                },
-                "image-m": {
-                    "url": "media/img/member1.jpeg",
-                    "alt": "portrait of Rusty Shackleford"
-                },
-                "image-t": {
-                    "url": "media/img/member1.jpeg",
-                    "alt": "portrait of Rusty Shackleford"
-                },
-                "button": {
+				"title2": "Fencing Contractor",
+				"title3": "servicing greater Melbourne",
+				"description": "Inspired Fencing provides a range of fencing solutions for the Mornington Peninsula, South East Melbourne & South Gippsland surrounds. We bring over 10 years of experience in the fencing industry to transform the outside of your home building quality, secure and elegent fences & gates.",
+				"image": {
+					"url": "media/images/Paling.jpeg",
+					"alt": "Paling fence side persective"
+				},
+				"image_m": {
+					"url": "media/images/Paling.jpeg",
+					"alt": "Paling fence side persective"
+				},
+				"image_t": {
+					"url": "media/images/Paling.jpeg",
+					"alt": "Paling fence side persective"
+				},
+				"button": {
 					"title": "Get a quote",
 					"url": "."
 				},
@@ -38,36 +38,63 @@
 			}
 		},
 		{
-			"name": "next_match",
+			"name": "services_1175",
 			"fields": {
-				"service1": {
-					"title": "FULL KITCHEN REMODEL",
-					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
-					"icon": {
-						"url": "media/svg/toolbox.svg",
-						"alt": "toolbox icon"
-					}
-				},
-				"service2": {
-					"title": "EXTERIOR REPAIRS",
-					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
+				"title": "Residentail & Commercial Fencing",
+				"subtitle": "OUR FENCING SERVICES",
+				"description": "Inspired Fencing offers a comprehensive range of fencing services from homes and apartment complexes to commercial properties and office spaces that are backed by Inspired Fencing's steadfast commitment to excellence, quality, fair rates, and our 100% satisfaction guarantee.",
+				"card1": {
+					"title": "Design",
+					"description": "Inspired Fencing specializes in crafting innovative and aesthetically pleasing designs for fences and gates, ensuring a perfect blend of functionality and style.",
+					"image": {
+						"url": "media/images/Design.jpeg",
+						"alt": "leaves"
+					},
 					"icon": {
 						"url": "media/svg/buildings.svg",
-						"alt": "building icon"
+						"alt": "design icon"
 					}
 				},
-				"service3": {
-					"title": "UTILITY MAINTENANCE",
-					"subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tempus, dolor enim, elit.",
+				"card2": {
+					"title": "Install",
+					"description": "With a foundation built on reliability and professionalism, Inspired Fencing excels in expertly installing high-quality fences and gates for homeowners on the Mornington Peninsula.",
+					"image": {
+						"url": "media/images/Install.jpeg",
+						"alt": "Installing a fence"
+					},
 					"icon": {
-						"url": "media/svg/gear.svg",
-						"alt": "gear icon"
+						"url": "media/svg/buildings.svg",
+						"alt": "design icon"
+					}
+				},
+				"card3": {
+					"title": "Repair",
+					"description": "Backed by years of experience and a commitment to honesty, Inspired Fencing offers efficient and trustworthy repair services, restoring the durability and appeal of existing fences and gates.",
+					"image": {
+						"url": "media/images/Repair.jpeg",
+						"alt": "Repairing a fence"
+					},
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "design icon"
+					}
+				},
+				"card4": {
+					"title": "Replace",
+					"description": "Inspired Fencing is ready to replace worn-out or outdated fences and gates with premium Australian-made products, providing homeowners with durable and stylish solutions.",
+					"image": {
+						"url": "media/images/Replace.jpeg",
+						"alt": "Replacing a fence"
+					},
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "design icon"
 					}
 				}
 			}
 		},
 		{
-			"name": "gallery_453",
+			"name": "sbs_317",
 			"fields": {
 				"title": "PORTFOLIO",
 				"subtitle": "Our Gallery",
@@ -131,7 +158,7 @@
 			}
 		},
 		{
-			"name": "meet_team_221",
+			"name": "process_688",
 			"fields": {
 				"title": "MEET THE TEAM",
 				"subtitle": "The People Behind CodeStitch",
@@ -188,7 +215,7 @@
 			}
 		},
 		{
-			"name": "reviews_727",
+			"name": "services_285",
 			"fields": {
 				"title": "TESTIMONIALS",
 				"subtitle": "Trusted by Thousand of People & Companies",
@@ -210,7 +237,67 @@
 			}
 		},
 		{
-			"name": "cta_51",
+			"name": "sbsr_298",
+			"fields": {
+				"title": "CONTACT US",
+				"subtitle": "Get It Done With Us Today",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.",
+				"button": {
+					"title": "Gret A Free Quote",
+					"url": "."
+				},
+				"image": {
+					"url": "media/img/cabinets.jpeg",
+					"alt": "kitchen cabinets"
+				},
+				"imageM": {
+					"url": "media/img/cabinets-m.jpeg",
+					"alt": "kitchen cabinets"
+				}
+			}
+		},
+		{
+			"name": "reviews_355",
+			"fields": {
+				"title": "CONTACT US",
+				"subtitle": "Get It Done With Us Today",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.",
+				"button": {
+					"title": "Gret A Free Quote",
+					"url": "."
+				},
+				"image": {
+					"url": "media/img/cabinets.jpeg",
+					"alt": "kitchen cabinets"
+				},
+				"imageM": {
+					"url": "media/img/cabinets-m.jpeg",
+					"alt": "kitchen cabinets"
+				}
+			}
+		},
+		{
+			"name": "cta_697",
+			"fields": {
+				"title": "CONTACT US",
+				"subtitle": "Get It Done With Us Today",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.",
+				"button": {
+					"title": "Gret A Free Quote",
+					"url": "."
+				},
+				"image": {
+					"url": "media/img/cabinets.jpeg",
+					"alt": "kitchen cabinets"
+				},
+				"imageM": {
+					"url": "media/img/cabinets-m.jpeg",
+					"alt": "kitchen cabinets"
+				}
+			}
+		},
+		{
+			"name": "contact_1392",
 			"fields": {
 				"title": "CONTACT US",
 				"subtitle": "Get It Done With Us Today",
@@ -231,7 +318,7 @@
 		}
 	],
 	"meta": {
-		"title": "Capital Tigers",
+		"title": "Inspired Fencing",
 		"desc": "A template for the Build-Time Render Engine Plenti",
 		"keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
 	}
