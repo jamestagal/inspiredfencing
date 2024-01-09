@@ -44,7 +44,7 @@
         </div>
         <!--Form-->
         <form class="cs-form" id="cs-form-1392" name="Contact Form" method="post">
-            <h3 class="cs-h3">Make Appointment</h3>
+            <h3 class="cs-h3">Enquire Now</h3>
             <label class="cs-label">
                 Name
                 <input class="cs-input" required type="text" id="name-1392" name="name" placeholder="Name">
