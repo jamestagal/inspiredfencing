@@ -1,23 +1,26 @@
+<script>
+    export let title, subtitle, image, image_m, image_t;
+</script>
 <!-- ============================================ -->
 <!--                   Banner                     -->
 <!-- ============================================ -->
 
 <div id="banner-559">
     <div class="cs-container">
-        <span class="cs-int-topper">Building Communities</span>
-        <span class="cs-int-title">About</span>
-        <div class="cs-breadcrumbs">
+        <span class="cs-int-topper">{subtitle}</span>
+        <span class="cs-int-title">{title}</span>
+<!--         <div class="cs-breadcrumbs">
             <a href="." class="cs-link">Home</a>
             <a href="." class="cs-link cs-active">About</a>
-        </div>
+        </div> -->
     </div>
     <!--Background Image-->
     <picture class="cs-background">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/dna-m.jpg">
+        <source media="(max-width: 600px)" srcset="{image_m.url}">
         <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/dna.jpg">
-        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/dna.jpg" alt="dna" width="1280" height="568" aria-hidden="true">
+        <source media="(min-width: 601px)" srcset="{image_t.url}">
+        <img loading="lazy" decoding="async" src="{image.url}" alt="{image.alt}" width="1296" height="235" aria-hidden="true">
     </picture>
 </div>
                                 
