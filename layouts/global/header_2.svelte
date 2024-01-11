@@ -168,12 +168,12 @@
           </li>
           <li on:click={() => setActive("testimonials")} class="cs-li">
             <a
-              href="reviews"
-              class="cs-li-link {activeItem.id === 'reviews'
+              href="testimonials"
+              class="cs-li-link {activeItem.id === 'testimonials'
                 ? 'cs-active'
                 : ''}"
             >
-              Reviews
+              Testimonials
             </a>
           </li>
           <li on:click={() => setActive("contact")} class="cs-li">
