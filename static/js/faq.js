@@ -1,4 +1,4 @@
-const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
+const faqItems = Array.from(document.querySelectorAll('.cs-faq-item, cs-faq-group'));
         for (const item of faqItems) {
             const onClick = () => {
             item.classList.toggle('active')
@@ -43,6 +43,7 @@ const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
             const show = showAll || $image.dataset.category == filter
             $image.classList.toggle(hiddenClass, !show)
             }
+            item.addEventListener('click', onClick)
         }
         }
 
