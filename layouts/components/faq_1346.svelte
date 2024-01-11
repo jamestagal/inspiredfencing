@@ -44,7 +44,7 @@
                 <!--If you add more FAQ's, copy and paste of of the .cs-faq-grop lists and increment the data-category to the next number. We have three right now, if you added a fourth you'd change it to data-category="four" to correspond to the new button you created in the .cs-button-group. The filter and category data attributes need to match so they can work together-->
                 <ul class="cs-faq-group" data-category="one">
                     <!-- Active class added as default -->
-                    <li class="cs-faq-item">
+                    <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
                                 Mornington Peninsula
@@ -137,7 +137,7 @@
                 </ul>
                 <ul class="cs-faq-group cs-hidden" data-category="two">
                     <!-- Active class added as default -->
-                    <li class="cs-faq-item">
+                    <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
                                 Frankston City
@@ -168,7 +168,7 @@
                 </ul>
                 <ul class="cs-faq-group cs-hidden" data-category="three">
                     <!-- Active class added as default -->
-                    <li class="cs-faq-item">
+                    <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
                                 Casey
@@ -237,7 +237,7 @@
                 </ul>
                 <ul class="cs-faq-group cs-hidden" data-category="four">
                     <!-- Active class added as default -->
-                    <li class="cs-faq-item">
+                    <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
                                 Cardinia
@@ -344,7 +344,7 @@
                 </ul>
                 <ul class="cs-faq-group cs-hidden" data-category="five">
                     <!-- Active class added as default -->
-                    <li class="cs-faq-item">
+                    <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
                                 Kingston
@@ -399,7 +399,7 @@
                 </ul>
                 <ul class="cs-faq-group cs-hidden" data-category="six">
                     <!-- Active class added as default -->
-                    <li class="cs-faq-item">
+                    <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
                                 Bass Coast
@@ -452,7 +452,7 @@
                 </ul>
                 <ul class="cs-faq-group cs-hidden" data-category="seven">
                     <!-- Active class added as default -->
-                    <li class="cs-faq-item">
+                    <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
                                 Baw Baw
@@ -465,7 +465,7 @@
                 </ul>
                 <ul class="cs-faq-group cs-hidden" data-category="eight">
                     <!-- Active class added as default -->
-                    <li class="cs-faq-item">
+                    <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
                                 South Gippsland
