@@ -1,43 +1,47 @@
+<script>
+  export let subtitle, title, description, button, allContent;
+  let testimonials = allContent.filter(
+    (content) => content.type === "testimonials"
+  );
+</script>
+
 <!-- ============================================ -->
 <!--                   Reviews                    -->
 <!-- ============================================ -->
 
 <section id="reviews-355">
-    <div class="cs-container">
-        <div class="cs-content">
-            <span class="cs-topper">Testimonials</span>
-            <h2 class="cs-title">Trusted by Thousand of People & Companies</h2>
-            <p class="cs-text">
-                At Stitch Cleaning Service, let us help you solve problems so that you can focus on your mission. We support businesses through periods of expansion, succession.
-            </p>
-        </div>
-        <ul class="cs-card-group">
-            <li class="cs-item">
-                <img class="cs-quote" aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/quote-blue.svg" decoding="async" alt="quote icon" width="40" height="33">
-                <p class="cs-review">
-                    I have used CleanPro service for about four years. I describe myself very picky and difficult to be pleased. Exceeded my expectations. 
-                </p>
-                <span class="cs-name">John Doe</span>
-                <span class="cs-job">Chief Executive</span>
-            </li>
-            <li class="cs-item">
-                <img class="cs-quote" aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/quote-blue.svg" decoding="async" alt="quote icon" width="40" height="33">
-                <p class="cs-review">
-                    I have used CleanPro service for about four years. I describe myself very picky and difficult to be pleased. Exceeded my expectations.
-                </p>
-                <span class="cs-name">Robert Henrich</span>
-                <span class="cs-job">CEO, HK Traders</span>
-            </li>
-            <li class="cs-item">
-                <img class="cs-quote" aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/quote-blue.svg" decoding="async" alt="quote icon" width="40" height="33">
-                <p class="cs-review">
-                    I have used CleanPro service for about four years. I describe myself very picky and difficult to be pleased. Exceeded my expectations.
-                </p>
-                <span class="cs-name">Robert Henrich</span>
-                <span class="cs-job">CEO, HK Traders</span>
-            </li>
-        </ul>
-        <a href="." class="cs-button-solid">Read More Reviews</a>
+  <div class="cs-container">
+    <div class="cs-content">
+      <span class="cs-topper">{subtitle}</span>
+      <h2 class="cs-title">{title}</h2>
+      <p class="cs-text">
+        {description}
+      </p>
     </div>
+    <ul class="cs-card-group">
+      {#each testimonials as testimonial}
+      {#if testimonial.fields.quote.id === 1}
+        <li class="cs-item">
+          <img
+            class="cs-quote"
+            aria-hidden="true"
+            src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/quote-blue.svg"
+            decoding="async"
+            alt="quote icon"
+            width="40"
+            height="33"
+          />
+          <p class="cs-review">
+            {@html testimonial.fields.quote.description
+              .substring(0, 120)
+              .replace(/(<([^>]+)>)/gi, "")}
+          </p>
+          <span class="cs-name">{testimonial.fields.quote.name}</span>
+          <span class="cs-job">{testimonial.fields.quote.location}</span>
+        </li>
+        {/if}
+      {/each}
+    </ul>
+    <a href={button.url} class="cs-button-solid">{button.title}</a>
+  </div>
 </section>
-                                
