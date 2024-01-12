@@ -20,7 +20,7 @@
                 <button class="cs-option" data-filter="two">
                     Frankston City
                 </button>
-                <button class="cs-option" data-filter="three">
+                <button href="#casey" class="cs-option" data-filter="three">
                     Casey
                 </button>
                 <button class="cs-option" data-filter="four">
@@ -166,7 +166,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="cs-faq-group cs-hidden" data-category="three">
+                <ul id="casey" class="cs-faq-group cs-hidden" data-category="three">
                     <!-- Active class added as default -->
                     <li class="cs-faq-item active">
                         <button class="cs-button">
