@@ -1,0 +1,72 @@
+{
+    "banner": {
+        "subtitle": "INSPIRED FENCING",
+        "title": "Our Testimonials",
+        "image": {
+            "url": "media/images/bannerImage.jpeg",
+            "alt": "white fence"
+        },
+        "image_m": {
+            "url": "media/images/bannerImage.jpeg",
+            "alt": "white fence"
+        },
+        "image_t": {
+            "url": "media/images/bannerImage.jpeg",
+            "alt": "white fence"
+        }
+    },
+    "subtitle": "Testimonials",
+    "title": "WHAT OUR CUSTOMERS HAVE TO SAY ABOUT OUR WORK",
+    "description": "We don’t just talk a big game - our clients believe in us too. Here’s what some of our customers had to say about their experience with Inspired Fencing.",
+    "quote": [
+        {
+            "id": "1",
+            "title": "professional",
+            "name": "Jeromy",
+            "location": "Pearcedale",
+            "description": "I contacted Inspired Fencing looking for someone urgently to build a fence in our backyard to stop our dog from escaping! Rowan was extremely understanding towards the situation and he was able to slot us in on short notice. He completed our fence in a short amount of time and did a fantastic job. He was very professional, easy to work with and constantly checked in during the job without being disruptive. I would highly recommend Inspired Fencing."
+        },
+        {
+            "id": "2",
+            "title": "great communication",
+            "name": "Emily",
+            "location": "Rye",
+            "description": "I recently went with Inspired Fencing for paling and horizontal plinth fencing with a gate at the back of my new property. Rowan was very considerate with the request and design, helpful and did everything to work in with me to ensure it was what I wanted. He was very professional and had great communication throughout the process of planning and starting the job, with plenty of guidance and ideas. I highly recommend Inspired Fencing for a thorough job and great service! Thanks again Rowan!"
+        },
+        {
+            "id": "3",
+            "title": "Reasonably Priced",
+            "name": "Rob Thomas",
+            "location": "Cranbourne",
+            "description": "I organised a side wing Colorbond to be erected for my disabled neighbour in West Cranbourne.  Rowan quoted on this job. I accepted his very reasonably priced quote and on the day he quoted it. He arranged to complete the work he did arrived on schedule. Rowan completed a very professional Colorbond fence for my neighbour. He's was an obliging and pleasant person to work with from start to completion of the job and I recommend him to those who are seeking similar fencing work as he is a diligent tradesman who is honest and totally reliable."
+        },
+        {
+            "id": "4",
+            "title": "Fantastic Work",
+            "name": "Brian",
+            "location": "Dirty Diggers And Landscaping",
+            "description": "Contacted Rowan to help us out with some fencing for job I was working on.  Inspired Fencing completed a fantastic job at a great price and most importantly the customer was very impressed with there great work.  Thanks Rowan."
+        },
+        {
+            "id": "5",
+            "title": "high standard",
+            "name": "Erica",
+            "location": "Crib Point",
+            "description": "Inspired did an amazing job on our 70m x 30m 6ft fence. Not only was it completed to a high standard it was done quickly, with little dissruption and at a competitive price. Highly recommended."
+        },
+        {
+            "id": "6",
+            "title": "Excellence",
+            "name": "Roger",
+            "location": "Armadale",
+            "description": "Great fencing job Rowan recently completed at our Armadale property, He is focused on Excellence and nothing is too hard, highly recommend Rowan."
+        },
+        {
+            "id": "7",
+            "title": "great job",
+            "name": "Ayla",
+            "location": "Somerville",
+            "description": "Did a great job on our fence that was falling apart. Very quick and good price and took all of the old fence with him."
+        }
+    ]
+}

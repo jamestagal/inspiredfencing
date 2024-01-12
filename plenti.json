@@ -1,7 +1,8 @@
 {
 	"build": "public",
 	"routes": {
-		"pages": ":filename"
+		"pages": ":filename",
+		"testimonials":":filename"
 	},
 	"entrypoint_js": ":fingerprint",
 	"baseurl": "/inspiredfencing/",
