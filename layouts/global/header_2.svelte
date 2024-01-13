@@ -146,7 +146,7 @@
               Projects
             </a>
           </li>
-          <li on:click={() => setActive("news")} class="cs-li">
+ <!--          <li on:click={() => setActive("news")} class="cs-li">
             <a
               href="news"
               class="cs-li-link {activeItem.id === 'news'
@@ -155,7 +155,7 @@
             >
               News
             </a>
-          </li>
+          </li> -->
           <li on:click={() => setActive("gallery")} class="cs-li">
             <a
               href="gallery"
