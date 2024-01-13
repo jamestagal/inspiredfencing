@@ -1,14 +1,17 @@
+<script>
+    export let subtitle, title, description, phone, email, address;
+</script>
 <!-- ============================================ -->
-<!--                   Contact                    -->
+<!--                   Contact 1392               -->
 <!-- ============================================ -->
 
 <section id="contact-1392">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Contact Us</span>
-            <h2 class="cs-title">Get in Touch</h2>
+            <span class="cs-topper">{subtitle}</span>
+            <h2 class="cs-title">{title}</h2>
             <p class="cs-text">
-                We are a team of passionate and creative individuals dedicated to crafting captivating designs that leave a lasting impression.
+               {description}
             </p>
             <ul class="cs-ul">
                 <li class="cs-li">
@@ -16,9 +19,9 @@
                         <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
                     </picture>
                     <div class="cs-flex-group">
-                        <span class="cs-header">Phone</span>
-                        <a href="tel:888-4565-789
-                        " class="cs-link">+1 (888) 4565 789
+                        <span class="cs-header">{phone.title}</span>
+                        <a href="tel:{phone.number}
+                        " class="cs-link">{phone.number}
                         </a>
                     </div>
                 </li>
@@ -27,8 +30,8 @@
                         <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
                     </picture>
                     <div class="cs-flex-group">
-                        <span class="cs-header">Email</span>
-                        <a href="mailto:Email@stitch.com" class="cs-link">Email@stitch.com</a>
+                        <span class="cs-header">{email.title}</span>
+                        <a href="mailto:{email.address}" class="cs-link">{email.address}</a>
                     </div>
                 </li>
                 <li class="cs-li">
@@ -36,8 +39,8 @@
                         <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
                     </picture>
                     <div class="cs-flex-group">
-                        <span class="cs-header">Address</span>
-                        <a href="." class="cs-link">2553 Woodbridge Lane, Boston Ware 120</a>
+                        <span class="cs-header">{address.title}</span>
+                        <a href="." class="cs-link">{address.location}</a>
                     </div>
                 </li>
             </ul>
