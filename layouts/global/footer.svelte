@@ -21,16 +21,25 @@
           <a href="." class="cs-link">Home</a>
         </li>
         <li class="cs-li">
-          <a href="." class="cs-link">About</a>
+          <a href="about" class="cs-link">About</a>
         </li>
         <li class="cs-li">
-          <a href="." class="cs-link">Services</a>
+          <a href="service" class="cs-link">Service</a>
         </li>
         <li class="cs-li">
-          <a href="." class="cs-link">Blog</a>
+          <a href="areas" class="cs-link">Service areas</a>
         </li>
         <li class="cs-li">
-          <a href="." class="cs-link">Contact</a>
+          <a href="projects" class="cs-link">Projects</a>
+        </li>
+        <li class="cs-li">
+          <a href="gallery" class="cs-link">Gallery</a>
+        </li>
+        <li class="cs-li">
+          <a href="testimonials" class="cs-link">testimonials</a>
+        </li>
+        <li class="cs-li">
+          <a href="contact" class="cs-link">Contact</a>
         </li>
       </ul>
     </div>
@@ -119,8 +128,8 @@
         </li>
       </ul>
       <span class="cs-copyright">
-        © Copyright 2023 - <a href="." class="cs-copyright-link"
-          >Stitch Agency</a
+        © Copyright 2024 - Designed & Developed By <a href="https://edtechdesigner.io/" class="cs-copyright-link" target="_blank"
+          >Plentify Web Designs (EdTech Designer)</a
         >
       </span>
       <div class="cs-flex">
