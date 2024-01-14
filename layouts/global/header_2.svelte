@@ -37,8 +37,8 @@
       <picture class="cs-picture">
         <img
           class="cs-icon"
-          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fphone-stroke-green.svg"
-          alt="icon"
+          src="media/svg/Icons_phone-green.svg"
+          alt="Green phone icon"
           width="24"
           height="24"
           aria-hidden="true"
@@ -54,8 +54,8 @@
       <picture class="cs-picture">
         <img
           class="cs-icon"
-          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fmail-stroke-green.svg"
-          alt="icon"
+          src="media/svg/Icons_mail-green.svg"
+          alt="Green email icon"
           width="24"
           height="24"
           aria-hidden="true"
@@ -71,8 +71,8 @@
       <picture class="cs-picture">
         <img
           class="cs-icon"
-          src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fpin-stroke-green.svg"
-          alt="icon"
+          src="media/svg/Icons_pin-green.svg"
+          alt="Green location pin icon"
           width="24"
           height="24"
           aria-hidden="true"
