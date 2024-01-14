@@ -1,5 +1,5 @@
 <script>
-    export let subtitle, title, description, phone, email, address;
+    export let subtitle, title, description, phone, email, address, form;
 </script>
 <!-- ============================================ -->
 <!--                   Contact 1392               -->
@@ -16,7 +16,7 @@
             <ul class="cs-ul">
                 <li class="cs-li">
                     <picture class="cs-icon-wrapper">
-                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/phone-76.svg" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
+                        <img aria-hidden="true" src="{phone.icon}" alt="{phone.iconALT}" class="cs-icon" width="40" height="40" decoding="async">
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">{phone.title}</span>
@@ -27,7 +27,7 @@
                 </li>
                 <li class="cs-li">
                     <picture class="cs-icon-wrapper">
-                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                        <img aria-hidden="true" src="{email.icon}" alt="{email.iconALT}" class="cs-icon" width="40" height="40" decoding="async">
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">{email.title}</span>
@@ -36,7 +36,7 @@
                 </li>
                 <li class="cs-li">
                     <picture class="cs-icon-wrapper">
-                        <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/pin-76.svg" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                        <img aria-hidden="true" src="{address.icon}" alt="{address.iconALT}" class="cs-icon" width="40" height="40" decoding="async">
                     </picture>
                     <div class="cs-flex-group">
                         <span class="cs-header">{address.title}</span>
@@ -47,24 +47,24 @@
         </div>
         <!--Form-->
         <form class="cs-form" id="cs-form-1392" name="Contact Form" method="post">
-            <h3 class="cs-h3">Enquire Now</h3>
+            <h3 class="cs-h3">{form.title}</h3>
             <label class="cs-label">
-                Name
-                <input class="cs-input" required type="text" id="name-1392" name="name" placeholder="Name">
+                {form.name}
+                <input class="cs-input" required type="text" id="name-1392" name="name" placeholder="Your name">
             </label>
             <label class="cs-label cs-email">
-                Email
-                <input class="cs-input" required type="email" id="email-1392" name="email" placeholder="Email">
+                {form.email}
+                <input class="cs-input" required type="email" id="email-1392" name="email" placeholder="Your email">
             </label>
             <label class="cs-label cs-phone">
-                Phone
-                <input class="cs-input" required type="number" id="phone-1392" name="phone" placeholder="Phone">
+                {form.phone}
+                <input class="cs-input" required type="number" id="phone-1392" name="phone" placeholder="Your phone number">
             </label>
             <label class="cs-label">
-                Message
-                <textarea class="cs-input cs-textarea" required name="Message" id="message-1392" placeholder="Write message..."></textarea>
+                {form.message}
+                <textarea class="cs-input cs-textarea" required name="Message" id="message-1392" placeholder="Write a message..."></textarea>
             </label>
-            <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
+            <button class="cs-button-solid cs-submit" type="submit">{form.button}</button>
         </form>
     </div>
 </section>
