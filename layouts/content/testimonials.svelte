@@ -1,5 +1,5 @@
 <script>
-    export let quote, banner, subtitle, title, description;
+    export let quote, banner, subtitle, title, description, button;
     // import Banner from "../components/banner_559.svelte";
 </script>
 
@@ -51,7 +51,7 @@
             </li>
             {/each}
         </ul>
-        <a href="contact" class="cs-button-solid">Get a quote</a>
+        <a href="{button.url}" class="cs-button-solid">{button.title}</a>
     </div>
 </section>
                                 

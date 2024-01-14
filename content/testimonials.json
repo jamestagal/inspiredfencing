@@ -68,5 +68,9 @@
             "location": "Somerville",
             "description": "Did a great job on our fence that was falling apart. Very quick and good price and took all of the old fence with him."
         }
-    ]
+    ],
+    "button": {
+        "url": "contact",
+        "title": "Get a quote"
+    }
 }
