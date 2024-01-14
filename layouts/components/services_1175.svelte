@@ -19,70 +19,70 @@
             <li class="cs-item">
                 <picture class="cs-picture">
                     <img class="cs-icon" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg" alt="icon"
+                        src="{card1.icon.url}" alt="{card1.icon.alt}"
                         width="48" height="48" />
                 </picture>
                 <h3 class="cs-h3">{card1.title}</h3>
                 <p class="cs-item-text">
                     {card1.description}
                 </p>
-                <a href="." class="cs-link">
+<!--                 <a href="." class="cs-link">
                     Read More
                     <img class="cs-arrow" loading="lazy" decoding="async"
                         src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
                         width="20" height="20" aria-hidden="true" />
-                </a>
+                </a> -->
             </li>
             <li class="cs-item">
                 <picture class="cs-picture">
                     <img class="cs-icon" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg" alt="icon" width="48"
+                        src="{card2.icon.url}" alt="{card1.icon.alt}" width="48"
                         height="48" />
                 </picture>
                 <h3 class="cs-h3">{card2.title}</h3>
                 <p class="cs-item-text">
                     {card2.description}
                 </p>
-                <a href="." class="cs-link">
+<!--                 <a href="." class="cs-link">
                     Read More
                     <img class="cs-arrow" loading="lazy" decoding="async"
                         src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
                         width="20" height="20" aria-hidden="true" />
-                </a>
+                </a> -->
             </li>
             <li class="cs-item">
                 <picture class="cs-picture">
                     <img class="cs-icon" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg" alt="icon" width="48"
+                        src="{card3.icon.url}" alt="{card3.icon.alt}" width="48"
                         height="48" />
                 </picture>
                 <h3 class="cs-h3">{card3.title}</h3>
                 <p class="cs-item-text">
                     {card3.description}
                 </p>
-                <a href="." class="cs-link">
+<!--                 <a href="." class="cs-link">
                     Read More
                     <img class="cs-arrow" loading="lazy" decoding="async"
                         src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
                         width="20" height="20" aria-hidden="true" />
-                </a>
+                </a> -->
             </li>
             <li class="cs-item">
                 <picture class="cs-picture">
                     <img class="cs-icon" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-gear.svg" alt="icon" width="48"
+                        src="{card4.icon.url}" alt="{card4.icon.alt}" width="48"
                         height="48" />
                 </picture>
                 <h3 class="cs-h3">{card4.title}</h3>
                 <p class="cs-item-text">
                     {card4.description}
                 </p>
-                <a href="." class="cs-link">
+<!--                 <a href="." class="cs-link">
                     Read More
                     <img class="cs-arrow" loading="lazy" decoding="async"
                         src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
                         width="20" height="20" aria-hidden="true" />
-                </a>
+                </a> -->
             </li>
         </ul>
         <a href="." class="btn mt20"> our services</a>
