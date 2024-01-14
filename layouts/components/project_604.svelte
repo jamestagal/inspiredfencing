@@ -30,7 +30,7 @@
                         </p>
                         <span class="cs-number">01</span>
                     </div>
-                    <h3 class="cs-h3">Colorbond Project</h3>
+                    <h3 class="cs-h3">Colorbond</h3>
                 </a>
             </li>
             <li class="cs-item">
@@ -49,7 +49,7 @@
                         </p>
                         <span class="cs-number">02</span>
                     </div>
-                    <h3 class="cs-h3">Driveway double gates Project</h3>
+                    <h3 class="cs-h3">Driveway double gates</h3>
                 </a>
             </li>
             <li class="cs-item">
@@ -68,7 +68,7 @@
                         </p>
                         <span class="cs-number">03</span>
                     </div>
-                    <h3 class="cs-h3">Brush Fence Project</h3>
+                    <h3 class="cs-h3">Brush Fence</h3>
                 </a>
             </li>
         </ul>
