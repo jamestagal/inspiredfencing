@@ -51,8 +51,8 @@
 						"alt": "leaves"
 					},
 					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
+						"url": "media/svg/design-svgrepo-com.svg",
+						"alt": "Design icon"
 					}
 				},
 				"card2": {
@@ -63,8 +63,8 @@
 						"alt": "Installing a fence"
 					},
 					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
+						"url": "media/svg/fence-free-material-svgrepo-com.svg",
+						"alt": "Install icon"
 					}
 				},
 				"card3": {
@@ -75,8 +75,8 @@
 						"alt": "Repairing a fence"
 					},
 					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
+						"url": "media/svg/repair-tools-cross-svgrepo-com.svg",
+						"alt": "Repair icon"
 					}
 				},
 				"card4": {
@@ -87,8 +87,8 @@
 						"alt": "Replacing a fence"
 					},
 					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
+						"url": "media/svg/replace-svgrepo-com.svg",
+						"alt": "Replace icon"
 					}
 				}
 			}
@@ -177,7 +177,7 @@
 			}
 		},
 		{
-			"name": "services_285",
+			"name": "services_1169",
 			"fields": {
 				"title": "TESTIMONIALS",
 				"subtitle": "Trusted by Thousand of People & Companies",

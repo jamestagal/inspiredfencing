@@ -3565,3 +3565,164 @@
       width: clamp(31.86%, 30vw, 32.28%);
   }
 }
+
+/*-- -------------------------- -->
+<---          Services 1169     -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #services-1169 {
+      background-color: #fff;
+      padding: var(--sectionPadding);
+  }
+  #services-1169 .cs-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      /* changes to 1440px at large desktop */
+      max-width: 51.5rem;
+      width: 100%;
+      /* 48px - 64px */
+      gap: clamp(3rem, 6vw, 4rem);
+  }
+  #services-1169 .cs-content {
+      display: flex;
+      flex-direction: column;
+      /* centers content horizontally, set to flex-start to left align */
+      align-items: center;
+      width: 100%;
+      /* set text align to left if content needs to be left aligned */
+      text-align: center;
+  }
+
+  #services-1169 .cs-title {
+      max-width: 20ch;
+  }
+  #services-1169 .cs-card-group {
+      display: grid;
+      align-items: stretch;
+      grid-template-columns: repeat(12, 1fr);
+      margin: 0;
+      width: 100%;
+      padding: 0;
+      /* 16px - 20px */
+      gap: clamp(1rem, 2vw, 1.25rem);
+  }
+  #services-1169 .cs-item {
+      z-index: 1;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #f7f7f7;
+      width: 100%;
+      list-style: none;
+      text-align: left;
+      grid-column: span 12;
+      max-width: 25rem;
+      margin: 0 auto;
+  }
+  #services-1169 .cs-item:hover .cs-picture img {
+      transform: scale(1.2);
+  }
+  #services-1169 .cs-item:hover .cs-h3,
+  #services-1169 .cs-item:hover .cs-link {
+      color: var(--primary);
+  }
+  #services-1169 .cs-item:hover .cs-arrow {
+      filter: initial;
+  }
+  #services-1169 .cs-picture {
+      position: relative;
+      display: block;
+      /* 180px - 240px */
+      height: clamp(11.25rem, 24vw, 15rem);
+      width: 100%;
+      /* clips the image from overflowing parent on hover */
+      overflow: hidden;
+  }
+  #services-1169 .cs-picture img {
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: transform 0.65s;
+  }
+  #services-1169 .cs-info {
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem;
+  }
+  #services-1169 .cs-h3 {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      /* prevents padding and border from affecting height and width */
+      box-sizing: border-box;
+      /* 20px - 25px */
+      font-size: clamp(1.25rem, 2.5vw, 1.5625rem);
+      line-height: 1.5em;
+      font-weight: 700;
+      color: var(--headerColor);
+      transition: background-color 0.3s;
+      text-align: inherit;
+      margin: 0 0 0.75rem 0;
+      transition: color 0.3s;
+  }
+  #services-1169 .cs-item-text {
+      width: 100%;
+      /* prevents padding and border from affecting height and width */
+      box-sizing: border-box;
+      font-size: clamp(0.875rem, 1.5vw, 1rem);
+      line-height: 1.5em;
+      color: var(--bodyTextColor);
+      text-align: inherit;
+      margin: 0;
+  }
+  #services-1169 .cs-link {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      text-decoration: none;
+      font-size: 1rem;
+      line-height: 1.2em;
+      font-weight: 700;
+      color: var(--headerColor);
+      text-align: inherit;
+      margin-top: 1.25rem;
+      transition: color 0.3s;
+  }
+  #services-1169 .cs-link:hover .cs-arrow {
+      transform: translateX(0.25rem);
+  }
+  #services-1169 .cs-arrow {
+      filter: grayscale(1) brightness(0);
+      display: block;
+      height: auto;
+      width: 1.25rem;
+      transition:
+          filter 0.3s,
+          transform 0.3s;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #services-1169 .cs-container {
+      max-width: 59rem;
+  }
+  #services-1169 .cs-item {
+      grid-column: span 4;
+      max-width: initial;
+  }
+}
+/* Large Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+  #services-1169 .cs-container {
+      max-width: 90rem;
+  }
+}
