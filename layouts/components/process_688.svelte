@@ -1,3 +1,6 @@
+<script>
+    export let subtitle, title, description, cards;
+</script>
 <!-- ============================================ -->
 <!--                   Process  4 steps          -->
 <!-- ============================================ -->
@@ -5,41 +8,22 @@
 <section id="process-688">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Our Work Process</span>
-            <h2 class="cs-title">How to Get Help from Us</h2>
+            <span class="cs-topper">{subtitle}</span>
+            <h2 class="cs-title">{title}</h2>
             <p class="cs-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam earum rerum sunt officia quas adipisci. Nulla, dolor dignissimos qui laboriosam, asperiores aliquam soluta voluptatum, dolorem dolores minima delectus quas nam?
+                {description}
             </p>
         </div>
         <ul class="cs-card-group">
+            {#each cards as card, i}
             <li class="cs-item">
                 <picture class="cs-picture">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fcalender.svg" alt="heart icon" width="42" height="42">
+                    <img class="cs-icon" loading="lazy" decoding="async" src="{card.icon.url}" alt="{card.icon.alt}" width="42" height="42">
                 </picture>
-                <h3 class="cs-h3">Experienced Staff</h3>
-                <p class="cs-item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis culpa, atque ad deleniti earum esse.</p>
+                <h3 class="cs-h3">{card.title}</h3>
+                <p class="cs-item-text">{card.blurb}</p>
             </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fchat.svg" alt="toolbox icon" width="42" height="42">
-                </picture>
-                <h3 class="cs-h3">Own Our Equipment</h3>
-                <p class="cs-item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis culpa, atque ad deleniti earum esse.</p>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fmath.svg" alt="ribbon icon" width="32" height="42">
-                </picture>
-                <h3 class="cs-h3">Licensed & Insured</h3>
-                <p class="cs-item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis culpa, atque ad deleniti earum esse.</p>
-            </li>
-            <li class="cs-item">
-                <picture class="cs-picture">
-                    <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fmath.svg" alt="ribbon icon" width="32" height="42">
-                </picture>
-                <h3 class="cs-h3">Licensed & Insured</h3>
-                <p class="cs-item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis culpa, atque ad deleniti earum esse.</p>
-            </li>
+            {/each}
         </ul>
     </div>
     <!--SVG Waves-->
