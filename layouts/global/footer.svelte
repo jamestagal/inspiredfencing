@@ -48,7 +48,7 @@
       <ul class="cs-social">
         <li class="cs-social-li">
           <a
-            href="."
+            href="https://www.facebook.com/InspiredFencing"
             class="cs-social-link"
             aria-label="facebook"
             target="_blank"
@@ -68,7 +68,7 @@
         </li>
         <li class="cs-social-li">
           <a
-            href="."
+            href="https://x.com/InspiredFencing"
             class="cs-social-link"
             aria-label="twitter"
             target="_blank"
@@ -88,7 +88,7 @@
         </li>
         <li class="cs-social-li">
           <a
-            href="."
+            href="https://instagram.com/inspiredfencing"
             class="cs-social-link"
             aria-label="instagram"
             target="_blank"
@@ -108,9 +108,9 @@
         </li>
         <li class="cs-social-li">
           <a
-            href="."
+            href="https://www.pinterest.com.au/inspiredfencing/"
             class="cs-social-link"
-            aria-label="twitter"
+            aria-label="pinterest"
             target="_blank"
             rel="noopener"
           >
