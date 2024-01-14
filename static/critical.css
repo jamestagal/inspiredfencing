@@ -123,6 +123,7 @@ h6 {
 
 .cs-button-solid {
   font-size: 1rem;
+  text-transform: uppercase;
   /* 46px - 56px */
   line-height: clamp(2.875rem, 5.5vw, 3.5rem);
   text-decoration: none;
