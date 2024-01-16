@@ -1,3 +1,6 @@
+<script>
+    export let subtitle, title, description, project1, project2, project3, button;
+</script>
 <!-- ============================================ -->
 <!--                  Services                    -->
 <!-- ============================================ -->
@@ -5,10 +8,10 @@
 <section id="services-1169">
     <div class="cs-container">
       <div class="cs-content">
-        <span class="cs-topper">Our Projects</span>
-        <h2 class="cs-title">Featured Projects</h2>
+        <span class="cs-topper">{subtitle}</span>
+        <h2 class="cs-title">{title}</h2>
         <p class="cs-text">
-          Inspired Fencing offers a wide variety of fencing products to suit your style and environment. Read about some of our feeatured fence and gate jobs to see the quality products we use and our workmanship.
+          {description}
         </p>
       </div>
       <ul class="cs-card-group">
@@ -17,26 +20,27 @@
             <!--Mobile Image-->
             <source
                   media="(max-width: 600px)"
-                  srcset="media/images/Project_Colourbond_01.jpeg">
+                  srcset="{project1.image_m}">
             <!--Tablet and above Image-->
             <source
                   media="(min-width: 601px)"
-                  srcset="media/images/Project_Colourbond_01.jpeg">
+                  srcset="{project1.image_t}">
             <img
                   loading="lazy"
                   decoding="async"
-                  src="media/images/Project_Colourbond_01.jpeg"
-                  alt="mechanic"
+                  src="{project1.image}"
+                  alt="{project1.imageALT}"
                   width="413"
                   height="240"
                   aria-hidden="true">
           </picture>
           <div class="cs-info">
-            <h3 class="cs-h3">Colorbond</h3>
+            <h3 class="cs-h3">{project1.title}</h3>
             <p class="cs-item-text">
-              What is Check Engine Light? There are many variations of passages of Lorem Ipsum available, but the majority have...
+               <strong><i>{project1.subtitle}</i></strong><br>
+                {project1.description}
             </p>
-            <a href="." class="cs-link">
+<!--             <a href="." class="cs-link">
               Read More
               <img
                     class="cs-arrow"
@@ -47,34 +51,74 @@
                     width="20"
                     height="20"
                     aria-hidden="true">
-            </a>
+            </a> -->
           </div>
         </li>
+        <li class="cs-item">
+            <picture class="cs-picture">
+              <!--Mobile Image-->
+              <source
+                    media="(max-width: 600px)"
+                    srcset="{project2.image_m}">
+              <!--Tablet and above Image-->
+              <source
+                    media="(min-width: 601px)"
+                    srcset="{project2.image_t}">
+              <img
+                    loading="lazy"
+                    decoding="async"
+                    src="{project2.image}"
+                    alt="{project2.imageALT}"
+                    width="413"
+                    height="240"
+                    aria-hidden="true">
+            </picture>
+            <div class="cs-info">
+              <h3 class="cs-h3">{project2.title}</h3>
+              <p class="cs-item-text">
+              <strong><i>{project2.subtitle}</i></strong><br>
+                {project2.description}
+              </p>
+             <!--  <a href="." class="cs-link">
+                Read More
+                <img
+                      class="cs-arrow"
+                      loading="lazy"
+                      decoding="async"
+                      src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg"
+                      alt="icon"
+                      width="20"
+                      height="20"
+                      aria-hidden="true">
+              </a> -->
+            </div>
+          </li>
         <li class="cs-item">
           <picture class="cs-picture">
             <!--Mobile Image-->
             <source
                   media="(max-width: 600px)"
-                  srcset="media/images/Project_Driveway_01.jpeg">
+                  srcset="{project3.image_m}">
             <!--Tablet and above Image-->
             <source
                   media="(min-width: 601px)"
-                  srcset="media/images/Project_Driveway_01.jpeg">
+                  srcset="{project3.image_t}">
             <img
                   loading="lazy"
                   decoding="async"
-                  src="media/images/Project_Driveway_01.jpeg"
-                  alt="mechanic"
+                  src="{project3.image}"
+                  alt="{project3.imageALT}"
                   width="413"
                   height="240"
                   aria-hidden="true">
           </picture>
           <div class="cs-info">
-            <h3 class="cs-h3">Driveway double gates</h3>
+            <h3 class="cs-h3">{project3.title}</h3>
             <p class="cs-item-text">
-              Our featured services Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur...
+            <strong><i>{project3.subtitle}</i></strong><br>
+              {project3.description}
             </p>
-            <a href="." class="cs-link">
+<!--             <a href="." class="cs-link">
               Read More
               <img
                     class="cs-arrow"
@@ -85,48 +129,11 @@
                     width="20"
                     height="20"
                     aria-hidden="true">
-            </a>
-          </div>
-        </li>
-        <li class="cs-item">
-          <picture class="cs-picture">
-            <!--Mobile Image-->
-            <source
-                  media="(max-width: 600px)"
-                  srcset="media/images/Project_Brush_01.jpeg">
-            <!--Tablet and above Image-->
-            <source
-                  media="(min-width: 601px)"
-                  srcset="media/images/Project_Brush_01.jpeg">
-            <img
-                  loading="lazy"
-                  decoding="async"
-                  src="media/images/Project_Brush_01.jpeg"
-                  alt="mechanic"
-                  width="413"
-                  height="240"
-                  aria-hidden="true">
-          </picture>
-          <div class="cs-info">
-            <h3 class="cs-h3">Bruch fence</h3>
-            <p class="cs-item-text">
-              Our services Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni...
-            </p>
-            <a href="." class="cs-link">
-              Read More
-              <img
-                    class="cs-arrow"
-                    loading="lazy"
-                    decoding="async"
-                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg"
-                    alt="icon"
-                    width="20"
-                    height="20"
-                    aria-hidden="true">
-            </a>
+            </a> -->
           </div>
         </li>
       </ul>
+      <a href={button.url} class="cs-button-solid">{button.title}</a>
     </div>
   </section>
                                 
