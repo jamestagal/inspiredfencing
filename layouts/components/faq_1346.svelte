@@ -135,7 +135,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="cs-faq-group cs-hidden" data-category="two">
+                <ul class="cs-faq-group" data-category="two">
                     <!-- Active class added as default -->
                     <li class="cs-faq-item active">
                         <button class="cs-button">
@@ -166,7 +166,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul id="casey" class="cs-faq-group cs-hidden" data-category="three">
+                <ul id="casey" class="cs-faq-group" data-category="three">
                     <!-- Active class added as default -->
                     <li class="cs-faq-item active">
                         <button class="cs-button">
@@ -235,7 +235,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="cs-faq-group cs-hidden" data-category="four">
+                <ul class="cs-faq-group" data-category="four">
                     <!-- Active class added as default -->
                     <li class="cs-faq-item active">
                         <button class="cs-button">
@@ -342,7 +342,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="cs-faq-group cs-hidden" data-category="five">
+                <ul class="cs-faq-group" data-category="five">
                     <!-- Active class added as default -->
                     <li class="cs-faq-item active">
                         <button class="cs-button">
@@ -397,7 +397,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="cs-faq-group cs-hidden" data-category="six">
+                <ul class="cs-faq-group" data-category="six">
                     <!-- Active class added as default -->
                     <li class="cs-faq-item active">
                         <button class="cs-button">
@@ -450,7 +450,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="cs-faq-group cs-hidden" data-category="seven">
+                <ul class="cs-faq-group" data-category="seven">
                     <!-- Active class added as default -->
                     <li class="cs-faq-item active">
                         <button class="cs-button">
