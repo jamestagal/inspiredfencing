@@ -179,22 +179,39 @@
 		{
 			"name": "services_1169",
 			"fields": {
-				"title": "TESTIMONIALS",
-				"subtitle": "Trusted by Thousand of People & Companies",
-				"description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-				"review1": {
-					"name": "Daniel",
-					"title": "Loving the color!",
-					"quote": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iste vitae, aliquam temporibus modi libero dolorem rerum? Dolore soluta eligendi mollitia. Doloribus et exercitationem cupiditate?"
+				"subtitle": "Our Projects",
+				"title": "Featured Projects",
+				"description": "Inspired Fencing offers a wide variety of fencing products to suit your style and environment. Read about some of our feeatured fence and gate jobs to see the quality products we use and our workmanship.",
+				"project1": {
+					"title": "Colorbond",
+					"subtitle": "Delivering high-quality workmanship",
+					"description": "We received a call from an existing client back in November 2018 who was in need of a secure...",
+					"image_m": "media/images/Project_Colourbond_01.jpeg",
+					"image_t": "media/images/Project_Colourbond_01.jpeg",
+					"image": "media/images/Project_Colourbond_01.jpeg",
+					"imageALT": "Colorbond project"
 				},
-				"review2": {
-					"name": "Bill",
-					"title": "Affordable",
-					"quote": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iste vitae, aliquam temporibus modi libero dolorem rerum? Dolore soluta eligendi mollitia. Doloribus et exercitationem cupiditate?"
+				"project2": {
+					"title": "Brush fence",
+					"subtitle": "Transforming a holiday home in Rye",
+					"description": "In December 2018 we took on the challenge of a 40-metre brush fence at a holiday home...",
+					"image_m": "media/images/Project_Brush_01.jpeg",
+					"image_t": "media/images/Project_Brush_01.jpeg",
+					"image": "media/images/Project_Brush_01.jpeg",
+					"imageALT": "Brush fence project"
 				},
-				"icon": {
-					"url": "media/svg/yellow-quote.svg",
-					"alt": "yellow quote icon"
+				"project3": {
+					"title": "Driveway double gates",
+					"subtitle": "A dream fence came true",
+					"description": "Back in October 2018 we tackled a unique job in Rye. A Holiday home on a corner block was in desperate...",
+					"image_m": "media/images/Project_Driveway_01.jpeg",
+					"image_t": "media/images/Project_Driveway_01.jpeg",
+					"image": "media/images/Project_Driveway_01.jpeg",
+					"imageALT": "Driveway double gates project"
+				},
+				"button": {
+					"title": "READ MORE",
+					"url": "projects"
 				}
 			}
 		},
