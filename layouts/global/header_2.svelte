@@ -133,7 +133,7 @@
                 ? 'cs-active'
                 : ''}"
             >
-              Areas
+              Service Areas
             </a>
           </li>
           <li on:click={() => setActive("projects")} class="cs-li">
