@@ -6,10 +6,10 @@
     <div class="cs-container">
         <picture class="cs-picture cs-picture1">
             <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer1.jpg">
+            <source media="(max-width: 600px)" srcset="media/images/projects/brush_02.jpeg">
             <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer1.jpg">
-            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer1.jpg" alt="meeting" width="305" height="339">
+            <source media="(min-width: 601px)" srcset="media/images/projects/brush_02.jpeg">
+            <img loading="lazy" decoding="async" src="media/images/projects/brush_02.jpeg" alt="meeting" width="305" height="339">
         </picture>
         <div class="cs-content">
             <span class="cs-topper">Brush Fence</span>
@@ -24,10 +24,10 @@
         </div>
         <picture class="cs-picture cs-picture2">
             <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer2.jpg">
+            <source media="(max-width: 600px)" srcset="media/images/projects/brush_03.jpeg">
             <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer2.jpg">
-            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/computer2.jpg" alt="meeting" width="305" height="339">
+            <source media="(min-width: 601px)" srcset="media/images/projects/brush_03.jpeg">
+            <img loading="lazy" decoding="async" src="media/images/projects/brush_03.jpeg" alt="meeting" width="305" height="339">
         </picture>
     </div>
     <div class="cs-bubbles" aria-hidden="true"></div>
