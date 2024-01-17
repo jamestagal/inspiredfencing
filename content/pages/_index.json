@@ -105,20 +105,20 @@
 					}
 				],
 				"image": {
-					"url": "media/images/Paling.jpeg",
+					"url": "media/images/Feature_MetalGate_01.webp",
 					"alt": "Paling fence side persective"
 				},
 				"image_m": {
-					"url": "media/images/Paling.jpeg",
+					"url": "media/images/Feature_MetalGate_01.webp",
 					"alt": "Paling fence side persective"
 				},
 				"image_t": {
-					"url": "media/images/Paling.jpeg",
+					"url": "media/images/Feature_MetalGate_01.webp",
 					"alt": "Paling fence side persective"
 				},
 				"button": {
-					"title": "SEE OUR SERVICES",
-					"url": "service"
+					"title": "See our services",
+					"url": "services"
 				}
 			}
 		},
@@ -186,27 +186,27 @@
 					"title": "Colorbond",
 					"subtitle": "Delivering high-quality workmanship",
 					"description": "We received a call from an existing client back in November 2018 who was in need of a secure...",
-					"image_m": "media/images/Project_Colourbond_01.jpeg",
-					"image_t": "media/images/Project_Colourbond_01.jpeg",
-					"image": "media/images/Project_Colourbond_01.jpeg",
-					"imageALT": "Colorbond project"
+					"image_m": "media/images/projects/colorbond_01.jpeg",
+					"image_t": "media/images/projects/colorbond_01.jpeg",
+					"image": "media/images/projects/colorbond_01.jpeg",
+					"imageALT": "Colorbond fencing project"
 				},
 				"project2": {
 					"title": "Brush fence",
 					"subtitle": "Transforming a holiday home in Rye",
 					"description": "In December 2018 we took on the challenge of a 40-metre brush fence at a holiday home...",
-					"image_m": "media/images/Project_Brush_01.jpeg",
-					"image_t": "media/images/Project_Brush_01.jpeg",
-					"image": "media/images/Project_Brush_01.jpeg",
+					"image_m": "media/images/projects/brush_01.jpeg",
+					"image_t": "media/images/projects/brush_01.jpeg",
+					"image": "media/images/projects/brush_01.jpeg",
 					"imageALT": "Brush fence project"
 				},
 				"project3": {
 					"title": "Driveway double gates",
 					"subtitle": "A dream fence came true",
 					"description": "Back in October 2018 we tackled a unique job in Rye. A Holiday home on a corner block was in desperate...",
-					"image_m": "media/images/Project_Driveway_01.jpeg",
-					"image_t": "media/images/Project_Driveway_01.jpeg",
-					"image": "media/images/Project_Driveway_01.jpeg",
+					"image_m": "media/images/projects/driveway_01.jpeg",
+					"image_t": "media/images/projects/driveway_01.jpeg",
+					"image": "media/images/projects/driveway_01.jpeg",
 					"imageALT": "Driveway double gates project"
 				},
 				"button": {
@@ -248,12 +248,12 @@
 				},
 				"button": {
 					"title": "SEE OUR SERVICES",
-					"url": "service"
+					"url": "services"
 				}
 			}
 		},
 		{
-			"name": "reviews_355",
+			"name": "reviews_607",
 			"fields": {
 				"subtitle": "Testimonials",
 				"title": "WHAT OUR CUSTOMERS HAVE TO SAY ABOUT OUR WORK",

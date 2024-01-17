@@ -1,0 +1,364 @@
+{
+	"components": [
+		{
+			"name": "banner_559",
+			"fields": {
+				"subtitle": "INSPIRED FENCING",
+				"title": "Our Services",
+				"image": {
+					"url": "media/images/bannerImage.jpeg",
+					"alt": "white fence"
+				},
+				"image_m": {
+					"url": "media/images/bannerImage.jpeg",
+					"alt": "white fence"
+				},
+				"image_t": {
+					"url": "media/images/bannerImage.jpeg",
+					"alt": "white fence"
+				}
+			}
+		},
+		{
+			"name": "content_713",
+			"fields": {
+				"title": "Residentail & Commercial Fencing",
+				"subtitle": "OUR FENCING SERVICES",
+				"description": "Inspired Fencing offers a comprehensive range of fencing services from homes and apartment complexes to commercial properties and office spaces that are backed by Inspired Fencing's steadfast commitment to excellence, quality, fair rates, and our 100% satisfaction guarantee.",
+				"card1": {
+					"title": "Design",
+					"description": "Inspired Fencing specializes in crafting innovative and aesthetically pleasing designs for fences and gates, ensuring a perfect blend of functionality and style.",
+					"image": {
+						"url": "media/images/Design.jpeg",
+						"alt": "leaves"
+					},
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "design icon"
+					}
+				},
+				"card2": {
+					"title": "Install",
+					"description": "With a foundation built on reliability and professionalism, Inspired Fencing excels in expertly installing high-quality fences and gates for homeowners on the Mornington Peninsula.",
+					"image": {
+						"url": "media/images/Install.jpeg",
+						"alt": "Installing a fence"
+					},
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "design icon"
+					}
+				},
+				"card3": {
+					"title": "Repair",
+					"description": "Backed by years of experience and a commitment to honesty, Inspired Fencing offers efficient and trustworthy repair services, restoring the durability and appeal of existing fences and gates.",
+					"image": {
+						"url": "media/images/Repair.jpeg",
+						"alt": "Repairing a fence"
+					},
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "design icon"
+					}
+				},
+				"card4": {
+					"title": "Replace",
+					"description": "Inspired Fencing is ready to replace worn-out or outdated fences and gates with premium Australian-made products, providing homeowners with durable and stylish solutions.",
+					"image": {
+						"url": "media/images/Replace.jpeg",
+						"alt": "Replacing a fence"
+					},
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "design icon"
+					}
+				}
+			}
+		},
+		{
+			"name": "services_1168",
+			"fields": {
+				"subtitle": "Our Service",
+				"title": "Our Range of Fences",
+				"description": "At Inspired Fencing, we focus on offering quality products and services tailored to the needs and budgets of our customers. We accept custom projects as well.Whether you are in need of gates around your property for your security, a new fence for your house or a fence for surrounding your pool, you can rest assure that the team at Inspired Fencing will be able to provide you with a quality solution in timely manner. We consider no job to be too small or too big. See our range of fencing styles below.",
+				"card1": {
+					"title": "Colorbond",
+					"description": "Are you looking for a fence that will withstand the harsh Australian conditions? At Inspired Fencing we can build your new COLORBOND® fence and gates to suit your needs.",
+					"image_m": {
+						"url": "media/images/fences/Colorbond_01.jpeg",
+						"alt": "Colorbond fence"
+					},
+					"image_t": {
+						"url": "media/images/fences/Colorbond_01.jpeg",
+						"alt": "Colorbond fence"
+					},
+					"image": {
+						"url": "media/images/fences/Colorbond_01.jpeg",
+						"alt": "Colorbond fence"
+					}
+				},
+				"card2": {
+					"title": "Timber",
+					"description": "With a foundation built on reliability and professionalism, Inspired Fencing excels in expertly installing high-quality fences and gates for homeowners on the Mornington Peninsula.",
+					"image_m": {
+						"url": "media/images/fences/Paling_01.jpeg",
+						"alt": "Timber paling fence"
+					},
+					"image_t": {
+						"url": "media/images/fences/Paling_01.jpeg",
+						"alt": "Timber palingfence"
+					},
+					"image": {
+						"url": "media/images/fences/Paling_01.jpeg",
+						"alt": "Timber palingfence"
+					}
+				},
+				"card3": {
+					"title": "Security",
+					"description": "Backed by years of experience and a commitment to honesty, Inspired Fencing offers efficient and trustworthy repair services, restoring the durability and appeal of existing fences and gates.",
+					"image_m": {
+						"url": "media/images/fences/Security.jpeg",
+						"alt": "Security fence"
+					},
+					"image_t": {
+						"url": "media/images/fences/Security.jpeg",
+						"alt": "Security fence"
+					},
+					"image": {
+						"url": "media/images/fences/Security.jpeg",
+						"alt": "Security fence"
+					}
+				},
+				"card4": {
+					"title": "Tubular",
+					"description": "Inspired Fencing is ready to replace worn-out or outdated fences and gates with premium Australian-made products, providing homeowners with durable and stylish solutions.",
+					"image_m": {
+						"url": "media/images/fences/Tubular.jpeg",
+						"alt": "Tubular fence"
+					},
+					"image_t": {
+						"url": "media/images/fences/Tubular.jpeg",
+						"alt": "Tubular fence"
+					},
+					"image": {
+						"url": "media/images/fences/Tubular.jpeg",
+						"alt": "Tubular fence"
+					}
+				},
+				"card5": {
+					"title": "Chainwire",
+					"description": "Are you looking for a fence that will withstand the harsh Australian conditions? At Inspired Fencing we can build your new COLORBOND® fence and gates to suit your needs.",
+					"image_m": {
+						"url": "media/images/fences/ChainWire.jpeg",
+						"alt": "ChainWire fence"
+					},
+					"image_t": {
+						"url": "media/images/fences/ChainWire.jpeg",
+						"alt": "ChainWire fence"
+					},
+					"image": {
+						"url": "media/images/fences/ChainWire.jpeg",
+						"alt": "ChainWire fence"
+					}
+				},
+				"card6": {
+					"title": "Brush",
+					"description": "With a foundation built on reliability and professionalism, Inspired Fencing excels in expertly installing high-quality fences and gates for homeowners on the Mornington Peninsula.",
+					"image_m": {
+						"url": "media/images/projects/brush_01.jpeg",
+						"alt": "Brush fence"
+					},
+					"image_t": {
+						"url": "media/images/projects/brush_01.jpeg",
+						"alt": "Brush fence"
+					},
+					"image": {
+						"url": "media/images/projects/brush_01.jpeg",
+						"alt": "Brush fence"
+					}
+				},
+				"card7": {
+					"title": "Louvrlat",
+					"description": "Backed by years of experience and a commitment to honesty, Inspired Fencing offers efficient and trustworthy repair services, restoring the durability and appeal of existing fences and gates.",
+					"image_m": {
+						"url": "media/images/fences/LouvrLat.jpeg",
+						"alt": "Louvrlat fence"
+					},
+					"image_t": {
+						"url": "media/images/fences/LouvrLat.jpeg",
+						"alt": "Louvrlat fence"
+					},
+					"image": {
+						"url": "media/images/fences/LouvrLat.jpeg",
+						"alt": "Louvrlat fence"
+					}
+				},
+				"card8": {
+					"title": "Featured",
+					"description": "Inspired Fencing is ready to replace worn-out or outdated fences and gates with premium Australian-made products, providing homeowners with durable and stylish solutions.",
+					"image_m": {
+						"url": "media/images/fences/Featured.jpeg",
+						"alt": "Featured fence"
+					},
+					"image_t": {
+						"url": "media/images/fences/Featured.jpeg",
+						"alt": "Featured fence"
+					},
+					"image": {
+						"url": "media/images/fences/Featured.jpeg",
+						"alt": "Featured fence"
+					}
+				},
+				"card9": {
+					"title": "Privacy Screen",
+					"description": "We supply and install quality outdoor screens and gates made from light-weight aluminium. They add privacy and style to your home.",
+					"image_m": {
+						"url": "media/images/fences/PrivacyScreen.jpeg",
+						"alt": "Privacy Screen fence"
+					},
+					"image_t": {
+						"url": "media/images/fences/PrivacyScreen.jpeg",
+						"alt": "Privacy Screen fence"
+					},
+					"image": {
+						"url": "media/images/fences/PrivacyScreen.jpeg",
+						"alt": "Privacy Screen fence"
+					}
+				},
+				"card10": {
+					"title": "Glass",
+					"description": "With a foundation built on reliability and professionalism, Inspired Fencing excels in expertly installing high-quality fences and gates for homeowners on the Mornington Peninsula.",
+					"image_m": {
+						"url": "media/images/fences/Glass.jpeg",
+						"alt": "Glass fence"
+					},
+					"image_t": {
+						"url": "media/images/fences/Glass.jpeg",
+						"alt": "Glass fence"
+					},
+					"image": {
+						"url": "media/images/fences/Glass.jpeg",
+						"alt": "Glass fence"
+					}
+				},
+				"card11": {
+					"title": "Merbau",
+					"description": "Backed by years of experience and a commitment to honesty, Inspired Fencing offers efficient and trustworthy repair services, restoring the durability and appeal of existing fences and gates.",
+					"image_m": {
+						"url": "media/images/fences/MerbauSlatGate.webp",
+						"alt": "Merbau fence"
+					},
+					"image_t": {
+						"url": "media/images/fences/MerbauSlatGate.webp",
+						"alt": "Merbau fence"
+					},
+					"image": {
+						"url": "media/images/fences/MerbauSlatGate.webp",
+						"alt": "Merbau fence"
+					}
+				},
+				"card12": {
+					"title": "Horizontal Slat",
+					"description": "Inspired Fencing is ready to replace worn-out or outdated fences and gates with premium Australian-made products, providing homeowners with durable and stylish solutions.",
+					"image_m": {
+						"url": "media/images/fences/HorizontalSlat.jpeg",
+						"alt": "Horizontal Slatfence"
+					},
+					"image_t": {
+						"url": "media/images/fences/HorizontalSlat.jpeg",
+						"alt": "Horizontal Slat fence"
+					},
+					"image": {
+						"url": "media/images/fences/HorizontalSlat.jpeg",
+						"alt": "Horizontal Slat fence"
+					}
+				},
+				"button": {
+					"title": "Ask for a Quote",
+					"url": "contact"
+				}
+			}
+		},
+		{
+			"name": "services_1329",
+			"fields": {
+				"title": "Residentail & Commercial Fencing",
+				"subtitle": "OUR FENCING SERVICES",
+				"description": "Inspired Fencing offers a comprehensive range of fencing services from homes and apartment complexes to commercial properties and office spaces that are backed by Inspired Fencing's steadfast commitment to excellence, quality, fair rates, and our 100% satisfaction guarantee.",
+				"card1": {
+					"title": "Design",
+					"description": "Inspired Fencing specializes in crafting innovative and aesthetically pleasing designs for fences and gates, ensuring a perfect blend of functionality and style.",
+					"image": {
+						"url": "media/images/Design.jpeg",
+						"alt": "leaves"
+					},
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "design icon"
+					}
+				},
+				"card2": {
+					"title": "Install",
+					"description": "With a foundation built on reliability and professionalism, Inspired Fencing excels in expertly installing high-quality fences and gates for homeowners on the Mornington Peninsula.",
+					"image": {
+						"url": "media/images/Install.jpeg",
+						"alt": "Installing a fence"
+					},
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "design icon"
+					}
+				},
+				"card3": {
+					"title": "Repair",
+					"description": "Backed by years of experience and a commitment to honesty, Inspired Fencing offers efficient and trustworthy repair services, restoring the durability and appeal of existing fences and gates.",
+					"image": {
+						"url": "media/images/Repair.jpeg",
+						"alt": "Repairing a fence"
+					},
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "design icon"
+					}
+				},
+				"card4": {
+					"title": "Replace",
+					"description": "Inspired Fencing is ready to replace worn-out or outdated fences and gates with premium Australian-made products, providing homeowners with durable and stylish solutions.",
+					"image": {
+						"url": "media/images/Replace.jpeg",
+						"alt": "Replacing a fence"
+					},
+					"icon": {
+						"url": "media/svg/buildings.svg",
+						"alt": "design icon"
+					}
+				}
+			}
+		},
+		{
+			"name": "reviews_607",
+			"fields": {
+				"title": "CONTACT US",
+				"subtitle": "Get It Done With Us Today",
+				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.",
+				"button": {
+					"title": "Gret A Free Quote",
+					"url": "."
+				},
+				"image": {
+					"url": "media/img/cabinets.jpeg",
+					"alt": "kitchen cabinets"
+				},
+				"imageM": {
+					"url": "media/img/cabinets-m.jpeg",
+					"alt": "kitchen cabinets"
+				}
+			}
+		}
+	],
+	"meta": {
+		"title": "Inspired Fencing",
+		"desc": "A template for the Build-Time Render Engine Plenti",
+		"keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+	}
+}

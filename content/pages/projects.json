@@ -22,56 +22,121 @@
 		{
 			"name": "sbs_1255",
 			"fields": {
-				"title": "Residentail & Commercial Fencing",
-				"subtitle": "OUR FENCING SERVICES",
-				"description": "Inspired Fencing offers a comprehensive range of fencing services from homes and apartment complexes to commercial properties and office spaces that are backed by Inspired Fencing's steadfast commitment to excellence, quality, fair rates, and our 100% satisfaction guarantee.",
-				"card1": {
-					"title": "Design",
-					"description": "Inspired Fencing specializes in crafting innovative and aesthetically pleasing designs for fences and gates, ensuring a perfect blend of functionality and style.",
-					"image": {
-						"url": "media/images/Design.jpeg",
-						"alt": "leaves"
+				"subtitle": "Colorbond",
+				"title": "Delivering high-quality workmanship",
+				"description": " We received a call from an existing client in November 2018. He had a car drive through his rental property fence destroying a large section. After having previously completed a Colorbond fence between this property and the neighboring units for this client back in June, I was pleased to receive his call to help him with a replacement Colorbond fence, despite the unfortunate circumstances. The client also had a feature gate that was damaged. This gate was a great challenge as we had not done one quite like it before, but we (and the client) are pleased with the outcome.",
+				"listTitle": "Features of Colorbond:",
+				"list1": {
+					"title": "Enclose your private space",
+					"icon": "media/svg/checkmark-green.svg",
+					"altText": "Green checkmark"
+				},
+				"list2": {
+					"title": "Contemporary design",
+					"icon": "media/svg/checkmark-green.svg",
+					"altText": "Green checkmark"
+				},
+				"list3": {
+					"title": "Maintenance-free",
+					"icon": "media/svg/checkmark-green.svg",
+					"altText": "Green checkmark"
+				},
+				"list4": {
+					"title": "Australian made",
+					"icon": "media/svg/checkmark-green.svg",
+					"altText": "Green checkmark"
+				},
+				"picture1": {
+					"image_m": {
+						"url": "media/images/projects/colorbond_03.jpeg",
+						"alt": "Colorbond fence"
 					},
-					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
+					"image_t": {
+						"url": "media/images/projects/colorbond_03.jpeg",
+						"alt": "Colorbond fence"
+					},
+					"image": {
+						"url": "media/images/projects/colorbond_03.jpeg",
+						"alt": "Colorbond fence"
 					}
 				},
-				"card2": {
-					"title": "Install",
-					"description": "With a foundation built on reliability and professionalism, Inspired Fencing excels in expertly installing high-quality fences and gates for homeowners on the Mornington Peninsula.",
-					"image": {
-						"url": "media/images/Install.jpeg",
-						"alt": "Installing a fence"
+				"picture2": {
+					"image_m": {
+						"url": "media/images/projects/colorbond_05.jpeg",
+						"alt": "Colorbond fence"
 					},
-					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
+					"image_t": {
+						"url": "media/images/projects/colorbond_05.jpeg",
+						"alt": "Colorbond fence"
+					},
+					"image": {
+						"url": "media/images/projects/colorbond_05.jpeg",
+						"alt": "Colorbond fence"
 					}
 				},
-				"card3": {
-					"title": "Repair",
-					"description": "Backed by years of experience and a commitment to honesty, Inspired Fencing offers efficient and trustworthy repair services, restoring the durability and appeal of existing fences and gates.",
-					"image": {
-						"url": "media/images/Repair.jpeg",
-						"alt": "Repairing a fence"
+				"picture3": {
+					"image_m": {
+						"url": "media/images/projects/colorbond_01.jpeg",
+						"alt": "Colorbond fence"
 					},
-					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
+					"image_t": {
+						"url": "media/images/projects/colorbond_01.jpeg",
+						"alt": "Colorbond fence"
+					},
+					"image": {
+						"url": "media/images/projects/colorbond_01.jpeg",
+						"alt": "Colorbond fence"
 					}
 				},
-				"card4": {
-					"title": "Replace",
-					"description": "Inspired Fencing is ready to replace worn-out or outdated fences and gates with premium Australian-made products, providing homeowners with durable and stylish solutions.",
-					"image": {
-						"url": "media/images/Replace.jpeg",
-						"alt": "Replacing a fence"
+				"picture4": {
+					"image_m": {
+						"url": "media/images/projects/colorbond_04.jpeg",
+						"alt": "Colorbond fence"
 					},
-					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
+					"image_t": {
+						"url": "media/images/projects/colorbond_04.jpeg",
+						"alt": "Colorbond fence"
+					},
+					"image": {
+						"url": "media/images/projects/colorbond_04.jpeg",
+						"alt": "Colorbond fence"
 					}
+				},
+				"picture5": {
+					"image_m": {
+						"url": "media/images/projects/colorbond_02.jpeg",
+						"alt": "Colorbond fence"
+					},
+					"image_t": {
+						"url": "media/images/projects/colorbond_02.jpeg",
+						"alt": "Colorbond fence"
+					},
+					"image": {
+						"url": "media/images/projects/colorbond_02.jpeg",
+						"alt": "Colorbond fence"
+					}
+				},
+				"picture6": {
+					"image_m": {
+						"url": "media/images/projects/colorbond_06.jpeg",
+						"alt": "Colorbond fence"
+					},
+					"image_t": {
+						"url": "media/images/projects/colorbond_06.jpeg",
+						"alt": "Colorbond fence"
+					},
+					"image": {
+						"url": "media/images/projects/colorbond_06.jpeg",
+						"alt": "Colorbond fence"
+					}
+				},
+				"waves": {
+					"icon": "media/svg/svg-waves-green.svg",
+					"altText": "Green wave pattern"
+				},
+				"button": {
+					"title": "Gret A Free Quote",
+					"url": "contact"
 				}
 			}
 		},
@@ -83,7 +148,7 @@
 				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.",
 				"button": {
 					"title": "Gret A Free Quote",
-					"url": "."
+					"url": "contact"
 				},
 				"image": {
 					"url": "media/img/cabinets.jpeg",
