@@ -7,24 +7,24 @@
         <!-- Left Image Section -->
         <div class="cs-image-group">
             <picture class="cs-picture cs-picture1">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people1.jpg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people1.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people1.jpg" alt="people in a meeting" width="398" height="393" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="media/images/projects/driveway_04.jpeg">
+                <source media="(min-width: 601px)" srcset="media/images/projects/driveway_04.jpeg">
+                <img loading="lazy" decoding="async" src="media/images/projects/driveway_04.jpeg" alt="people in a meeting" width="398" height="393" aria-hidden="true">
             </picture>
             <picture class="cs-picture cs-picture2">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people2.jpg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people2.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people2.jpg" alt="people in a meeting" width="320" height="318" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="media/images/projects/driveway_01.jpeg">
+                <source media="(min-width: 601px)" srcset="media/images/projects/driveway_01.jpeg">
+                <img loading="lazy" decoding="async" src="media/images/projects/driveway_01.jpeg" alt="people in a meeting" width="320" height="318" aria-hidden="true">
             </picture>
             <picture class="cs-picture cs-picture3">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people3.jpg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people3.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people3.jpg" alt="people in a meeting" width="325" height="322" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="media/images/projects/driveway_02.jpeg">
+                <source media="(min-width: 601px)" srcset="media/images/projects/driveway_02.jpeg">
+                <img loading="lazy" decoding="async" src="media/images/projects/driveway_02.jpeg" alt="people in a meeting" width="325" height="322" aria-hidden="true">
             </picture>
             <picture class="cs-picture cs-picture4">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people4.jpg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people4.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/people4.jpg" alt="people in a meeting" width="264" height="262" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="media/images/projects/driveway_03.jpeg">
+                <source media="(min-width: 601px)" srcset="media/images/projects/driveway_03.jpeg">
+                <img loading="lazy" decoding="async" src="media/images/projects/driveway_03.jpeg" alt="people in a meeting" width="264" height="262" aria-hidden="true">
             </picture>
 <!--             <a href="" class="cs-play-link" aria-label="play link">
                 <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/play.svg" alt="play icon" width="32" height="32" aria-hidden="true">
