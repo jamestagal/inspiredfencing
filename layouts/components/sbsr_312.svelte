@@ -7,20 +7,20 @@
         <!-- Left Image Section -->
         <div class="cs-image-group">
             <picture class="cs-picture cs-picture1">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/lawyers-m.jpg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/lawyers.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/lawyers.jpg" alt="lawyers" width="522" height="581" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="media/images/Feature_TimberFence.webp">
+                <source media="(min-width: 601px)" srcset="media/images/Feature_TimberFence.webp">
+                <img loading="lazy" decoding="async" src="media/images/Feature_TimberFence.webp" alt="lawyers" width="522" height="581" aria-hidden="true">
             </picture>
             <picture class="cs-picture cs-picture2">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/gavel-m.jpg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/gavel.jpg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/SideBySide/gavel.jpg" alt="gavel" width="414" height="400" aria-hidden="true">
+                <source media="(max-width: 600px)" srcset="media/images/Design.jpeg">
+                <source media="(min-width: 601px)" srcset="media/images/Design.jpeg">
+                <img loading="lazy" decoding="async" src="media/images/Design.jpeg" alt="gavel" width="414" height="400" aria-hidden="true">
             </picture>
         </div>
         <!-- Right Content Section-->
         <div class="cs-content">
             <span class="cs-topper">About Us</span>
-            <h2 class="cs-title">About Inspired Fencing</h2>
+            <h2 class="cs-title">About <span style="color: var(--primary)">Inspired Fencing</span></h2>
             <p class="cs-text">
                 Inspired fencing is a local family business based in Somerville on the beautiful Mornington Peninsula. At Inspired fencing, we endeavor to go that extra mile for our clients in making sure your fence is built how you want from first inspection and quoting to starting and finishing construction. If you require any further information, have any questions, or would like to arrange a time to book your free measure & quote, please feel free to contact us today.
             </p>
