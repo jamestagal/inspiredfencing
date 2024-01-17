@@ -116,14 +116,14 @@
               About
             </a>
           </li>
-          <li on:click={() => setActive("service")} class="cs-li">
+          <li on:click={() => setActive("services")} class="cs-li">
             <a
-              href="service"
-              class="cs-li-link {activeItem.id === 'service'
+              href="services"
+              class="cs-li-link {activeItem.id === 'services'
                 ? 'cs-active'
                 : ''}"
             >
-              Service
+              Services
             </a>
           </li>
           <li on:click={() => setActive("areas")} class="cs-li">
