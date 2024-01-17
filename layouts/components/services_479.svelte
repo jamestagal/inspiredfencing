@@ -16,9 +16,9 @@
             </a>
             <!--Background Image-->
             <picture class="cs-background">
-                <source media="(max-width: 600px)" srcset="media/images/Paling.jpeg">
-                <source media="(min-width: 601px)" srcset="media/images/Paling.jpeg">
-                <img aria-hidden="true" loading="lazy" decoding="async" src="media/images/Paling.jpeg" alt="grass" width="625" height="842">
+                <source media="(max-width: 600px)" srcset="media/images/Feature_TimberFence_02.webp">
+                <source media="(min-width: 601px)" srcset="media/images/Feature_TimberFence_02.webp">
+                <img aria-hidden="true" loading="lazy" decoding="async" src="media/images/Feature_TimberFence_02.webp" alt="grass" width="625" height="842">
             </picture>
         </div>
         <!--We need to wrap these two in a wrapper so they can be positioned more accurately and easily -->
@@ -37,7 +37,7 @@
                     </picture>
                     <h3 class="cs-h3">Fences</h3>
                     <p class="cs-item-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, sapiente.
+                        We offer a wide range of elegent fecnes solutions.
                     </p>
                     <a href="services" class="cs-link">Read More</a>
                 </li>
@@ -47,7 +47,7 @@
                     </picture>
                     <h3 class="cs-h3">Gates</h3>
                     <p class="cs-item-text">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, sapiente.
+                        Our gate are build to last and will make your fence stand out in the crowd!
                     </p>
                     <a href="services" class="cs-link">Read More</a>
                 </li>
