@@ -17,20 +17,20 @@
         <a href="." class="cs-link">
           <span class="cs-number">01</span>
           <h3 class="cs-h3">Fence Repair & Replacement</h3>
-          <p class="cs-item-text">We consider all the drivers</p>
+          <p class="cs-item-text">We consider all the jobs!</p>
         </a>
         <picture class="cs-picture">
           <source
             media="(max-width: 600px)"
-            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/finance-screen.png"
+            srcset="media/images/RepairAndReplace.webp"
           />
           <source
             media="(min-width: 601px)"
-            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/finance-screen.png"
+            srcset="media/images/RepairAndReplace.webp"
           />
           <img
             decoding="async"
-            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/finance-screen.png"
+            src="media/images/RepairAndReplace.webp"
             alt="finance"
             width="413"
             height="374"
@@ -53,20 +53,20 @@
         <a href="." class="cs-link">
           <span class="cs-number">02</span>
           <h3 class="cs-h3">Fence and Waste Removal</h3>
-          <p class="cs-item-text">We consider all the drivers</p>
+          <p class="cs-item-text">We can removal the waste for you!</p>
         </a>
         <picture class="cs-picture">
           <source
             media="(max-width: 600px)"
-            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/finance-reading.png"
+            srcset="media/images/FenceWasteRemoval.webp"
           />
           <source
             media="(min-width: 601px)"
-            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/finance-reading.png"
+            srcset="media/images/FenceWasteRemoval.webp"
           />
           <img
             decoding="async"
-            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/finance-reading.png"
+            src="media/images/FenceWasteRemoval.webp"
             alt="finance"
             width="413"
             height="374"
@@ -89,20 +89,20 @@
         <a href="." class="cs-link">
           <span class="cs-number">03</span>
           <h3 class="cs-h3">Handyman and Garden Maintenance</h3>
-          <p class="cs-item-text">We consider all the drivers</p>
+          <p class="cs-item-text">We can fix issues & improve your garden</p>
         </a>
         <picture class="cs-picture">
           <source
             media="(max-width: 600px)"
-            srcset="https://csimg.nyc3.cdn.digita loceanspaces.com/Images/MISC/finance-laptop.png"
+            srcset="media/images/HandyManService.jpeg"
           />
           <source
             media="(min-width: 601px)"
-            srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/finance-laptop.png"
+            srcset="media/images/HandyManService.jpeg"
           />
           <img
             decoding="async"
-            src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/finance-laptop.png"
+            src="media/images/HandyManService.jpeg"
             alt="finance"
             width="413"
             height="374"
