@@ -41,7 +41,7 @@
         <ul class="cs-card-group">
             {#each quote as quotes, i}
             <li class="cs-item">
-                <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Reviews/yellow-quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <img class="cs-icon" src="media/svg/green-quote-marks.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
                 <h3 class="cs-h3">{quotes.title}</h3>
                 <p class="cs-item-text">
                     {quotes.description}
