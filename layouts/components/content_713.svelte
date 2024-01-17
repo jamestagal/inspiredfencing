@@ -27,10 +27,10 @@
         <div class="cs-image-group">
             <picture class="cs-picture">
                 <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="media/images/fence/Colorbond_01.jpeg">
+                <source media="(max-width: 600px)" srcset="media/images/fences/Colorbond_01.jpeg">
                 <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="media/images/fence/Colorbond_01.jpeg">
-                <img loading="lazy" decoding="async" src="media/images/fence/Colorbond_01.jpeg" alt="kitchen painting" width="570" height="680" aria-hidden="true">
+                <source media="(min-width: 601px)" srcset="media/images/fences/Colorbond_01.jpeg">
+                <img loading="lazy" decoding="async" src="media/images/fences/Colorbond_01.jpeg" alt="kitchen painting" width="570" height="680" aria-hidden="true">
             </picture>
         </div>
     </div>
