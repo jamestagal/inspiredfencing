@@ -265,6 +265,18 @@
 			}
 		},
 		{
+			"name": "reviews_355",
+			"fields": {
+				"subtitle": "Testimonials",
+				"title": "WHAT OUR CUSTOMERS HAVE TO SAY ABOUT OUR WORK",
+				"description": "We don't just boast about our work; our clients place their trust in us. See for yourself what a few of our customers have shared about their interactions with Inspired Fencing.",
+				"button": {
+					"title": "READ MORE",
+					"url": "testimonials"
+				}
+			}
+		},
+		{
 			"name": "cta_697",
 			"fields": {
 				"title": "CONTACT US",
