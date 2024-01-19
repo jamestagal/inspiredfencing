@@ -13,10 +13,15 @@
   <script type="module" src="js/faq.js"></script>
   <!-- Custom styles -->
   <link rel="stylesheet" href="critical.css" />
-  <link rel="stylesheet" href="global.css" />
-  <noscript>
+  <link
+    rel="stylesheet"
+    href="global.css"
+    media="print"
+    onload="this.media='all';this.onload=null;"
+  />
+  <nonscript>
     <link rel="stylesheet" href="global.css" />
-  </noscript>
+  </nonscript>
 
   <link rel="icon" type="image/svg+xml" href="media/logo.svg" />
   <link rel="stylesheet" href={`${env.entrypointJS}/bundle.css`} />
