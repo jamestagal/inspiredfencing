@@ -331,7 +331,7 @@ html {
     display: none;
   }
   #cs-navigation .cs-link {
-    font-size: 0.875rem;
+    font-size: 0.78rem;
     line-height: 1.5em;
     text-align: inherit;
     text-decoration: none;
@@ -784,6 +784,17 @@ html {
   }
   #cs-navigation .cs-nav-button:hover:before {
     background-color: white;
+  }
+  #cs-navigation .cs-nav-button {
+    display: none;
+    margin-left: auto;
+    border-radius: 0;
+  }
+}
+/* Large Desktop */
+@media only screen and (min-width: 81.25rem) {
+  #cs-navigation .cs-nav-button {
+    display: block;
   }
 }
 
