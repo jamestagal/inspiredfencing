@@ -1,3 +1,6 @@
+<script>
+    export let banner, picture;
+</script>
 <!-- ============================================ -->
 <!--                    CTA                       -->
 <!-- ============================================ -->
@@ -5,22 +8,22 @@
 <section id="cta-262">
     <div class="cs-container">
         <div class="cs-left-section">
-            <h2 class="cs-title">Get in touch for a quote</h2>
-            <a href="contact" class="cs-button-solid">Request a quote</a>
+            <h2 class="cs-title">{banner.title}</h2>
+            <a href="{banner.button.url}" class="cs-button-solid">{banner.button.title}</a>
         </div>
         <div class="cs-content">
-            <span class="cs-header">Available Hours</span>
+            <span class="cs-header">{banner.hours}</span>
             <p class="cs-p"> 
-                Monday - Friday: 8am-6pm
+                {banner.days}
             </p>
             <p class="cs-p">
-                Appointments Preferred.
+                {banner.comment}
             </p>
         </div>
         <picture class="cs-background">
-            <source media="(max-width: 600px)" srcset="media/images/Feature_Colourbond.jpeg">
-            <source media="(min-width: 601px)" srcset="media/images/Feature_Colourbond.jpeg">
-            <img aria-hidden="true" loading="lazy" decoding="async" src="media/images/Feature_Colourbond.jpeg" alt="appliance" width="275" height="132">
+            <source media="(max-width: 600px)" srcset="{picture.image_m.src}">
+            <source media="(min-width: 601px)" srcset="{picture.image_t.src}">
+            <img aria-hidden="true" loading="lazy" decoding="async" src="{picture.image.url}" alt="{picture.image.alt}" width="275" height="132">
         </picture>
     </div>
 </section>
