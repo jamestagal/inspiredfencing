@@ -2,7 +2,7 @@
     export let title1, title2, description, listTitle, list1, list2, list3, image_m, image_t, image, waves, button;
 </script>
 <!-- ============================================ -->
-<!--                  Content Pge                 -->
+<!--                Content Pge  713              -->
 <!-- ============================================ -->
 
 <section id="content-page-713">
