@@ -1,9 +1,17 @@
 <script>
   export let title;
-  let navActive;
+
+/*   let navActive;
   const toggleMenu = () => {
     navActive = !navActive;
-  };
+  };  */
+
+/*   let isActive = true;
+
+function setActive(id) {
+  activeItem.id = id;
+  isActive = !isActive;
+} */
 
   let activeItem = { id: "home", isActive: true };
 
@@ -87,6 +95,7 @@
   </ul>
   <div class="cs-bottom-bar">
     <!--Navigation List-->
+    <!-- svelte-ignore a11y-no-redundant-roles -->
     <nav class="cs-nav" role="navigation">
       <!--Mobile Nav Toggle-->
       <button class="cs-toggle" aria-label="mobile menu toggle">
@@ -100,7 +109,7 @@
       <div class="cs-ul-wrapper">
         <!-- svelte-ignore a11y-role-supports-aria-props -->
         <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
-          <li on:click={() => setActive("home")} class="cs-li">
+          <li on:click={() => setActive("home")} class:cs-active={activeItem === 'home'} class="cs-li">
             <a
               href="."
               class="cs-li-link {activeItem.id === 'home' ? 'cs-active' : ''}"
