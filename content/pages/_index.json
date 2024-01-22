@@ -279,12 +279,14 @@
 		{
 			"name": "cta_697",
 			"fields": {
-				"title": "CONTACT US",
-				"subtitle": "Get It Done With Us Today",
-				"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis at sit pellentesque molestie. Diam, adipiscing ultrices eu turpis gravida.",
+				"title": "Have Doubts? Get Your Queries Solved by Our Experts",
 				"button": {
-					"title": "Read More Reviews",
+					"title": "Get In Touch",
 					"url": "contact"
+				},
+				"waves": {
+					"url": "media/svg/Images_Graphics_waves-3.svg",
+					"alt": "white wavy pattern"
 				}
 			}
 		},
