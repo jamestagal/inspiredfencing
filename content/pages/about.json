@@ -45,7 +45,7 @@
 				"button": {
 					"title": "Get a quote",
 					"url": "services"
-				}	
+				}
 			}
 		},
 		{
@@ -192,22 +192,24 @@
 		{
 			"name": "cta_403",
 			"fields": {
-				"title": "TESTIMONIALS",
-				"subtitle": "Trusted by Thousand of People & Companies",
-				"description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
-				"review1": {
-					"name": "Daniel",
-					"title": "Loving the color!",
-					"quote": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iste vitae, aliquam temporibus modi libero dolorem rerum? Dolore soluta eligendi mollitia. Doloribus et exercitationem cupiditate?"
+				"sutitle": "Inspired Fencing",
+				"title": "Want to Work with Our Team?",
+				"description": "We love what we do and we do it with passion. We value quality workmanship and customer satisfaction.",
+				"button": {
+					"title": "See our Services",
+					"url": "services"
 				},
-				"review2": {
-					"name": "Bill",
-					"title": "Affordable",
-					"quote": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iste vitae, aliquam temporibus modi libero dolorem rerum? Dolore soluta eligendi mollitia. Doloribus et exercitationem cupiditate?"
-				},
-				"icon": {
-					"url": "media/svg/yellow-quote.svg",
-					"alt": "yellow quote icon"
+				"picture": {
+					"image_m": {
+						"src": "media/images/Feature_paling.jpeg"
+					},
+					"image_t": {
+						"src": "media/images/Feature_paling.jpeg"
+					},
+					"image": {
+						"url": "media/images/Feature_paling.jpeg",
+						"alt": "Featured paling fence"
+					}
 				}
 			}
 		}
