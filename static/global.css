@@ -625,7 +625,7 @@
 /* Desktop - 1500px */
 @media only screen and (min-width: 93.75rem) {
   #process-688 .cs-background {
-    background: url("../media/images/Feature_paling.jpeg");
+    background: url("media/images/Feature_paling.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1920,8 +1920,8 @@
       background: transparent;
       /* prevent border from affecting height and width */
       box-sizing: border-box;
-      border: 3px solid var(--primary);
-      border-radius: 0.625rem;
+      border: 3.5px solid var(--primary);
+      border-radius: 0.25rem;
       /* prevents the mouse from interacting with it */
       pointer-events: none;
       opacity: 0;
