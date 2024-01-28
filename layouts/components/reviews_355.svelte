@@ -33,7 +33,7 @@
           />
           <p class="cs-review">
             {@html testimonial.fields.quote.description
-              .substring(0, 120)
+              ?.substring(0, 120)
               .replace(/(<([^>]+)>)/gi, "")}
           </p>
           <span class="cs-name">{testimonial.fields.quote.name}</span>
