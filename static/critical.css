@@ -183,7 +183,7 @@ html {
     padding: 0.75rem 1rem;
     /* prevents padding and border from affecting height and width */
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: var(--background);
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     position: fixed;
     z-index: 100;
@@ -336,7 +336,7 @@ html {
     text-align: inherit;
     text-decoration: none;
     margin: 0;
-    color: var(--bodyTextColor);
+    color:  var(--bodyTextColorWhite);
     display: block;
     transition: color 0.3s;
   }
@@ -346,7 +346,7 @@ html {
     height: clamp(2.75rem, 6vw, 3rem);
     margin: 0.75rem 0 0 auto;
     border-radius: 0.25rem;
-    background-color: #484848;
+    background-color: var( --primary);
     border: none;
     display: flex;
     justify-content: center;
