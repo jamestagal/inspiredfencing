@@ -5,8 +5,8 @@
   let youremail = "";
   let message = "";
   let yourphone = "";
-  
-  $: prefilledLink = `https://docs.google.com/forms/d/e/1FAIpQLSdts38ZsMVVctU9aR6-muICqykNAY-PpcTDEwxTtoS7zXbEwA/formResponse?usp=pp_url&entry.2005620554=${name}&entry.1045781291=${youremail}&entry.1166974658=${yourphone}&entry.839337160=${message}submit=Submit`;
+
+  $: prefilledLink = `https://docs.google.com/forms/d/e/1FAIpQLSdts38ZsMVVctU9aR6-muICqykNAY-PpcTDEwxTtoS7zXbEwA/formResponse?usp=pp_url&entry.2005620554=${name}&entry.1045781291=${youremail}&entry.1166974658=${yourphone}&entry.839337160=${message}&submit=Submit`;
 </script>
 
 <!-- ============================================ -->
@@ -92,7 +92,7 @@
           id="name-1392"
           name="name"
           placeholder="Your name"
-          bind:value={name}
+          bind:value="{name}"
         />
       </label>
       <label class="cs-label cs-email">
@@ -104,7 +104,7 @@
           id="email-1392"
           name="email"
           placeholder="Your email"
-          bind:value={youremail}
+          bind:value="{youremail}"
         />
       </label>
       <label class="cs-label cs-phone">
@@ -116,7 +116,7 @@
           id="phone-1392"
           name="phone"
           placeholder="Your phone number"
-          bind:value={yourphone}
+          bind:value="{yourphone}"
         />
       </label>
       <label class="cs-label">
@@ -127,10 +127,10 @@
           name="Message"
           id="message-1392"
           placeholder="Write a message..."
-          bind:value={message}
+          bind:value="{message}"
         ></textarea>
       </label>
-      <a href={prefilledLink} target="_blank">
+      <a href="{prefilledLink}" target="_blank">
         <button class="cs-button-solid cs-submit" type="submit"
           >{form.button}</button
         ></a
