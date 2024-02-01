@@ -262,22 +262,9 @@ html {
     padding: 0 0 0.75rem 0;
     position: relative;
     transition: height 0.3s, padding-bottom 0.3s, opacity 0.3s;
-    z-index: -3;
+    z-index: 0;
   }
-  #cs-navigation .cs-top-bar:before {
-    /* grey line */
-    content: "";
-    width: 100%;
-    height: 1px;
-    background: #eff1f0;
-    opacity: 1;
-    position: absolute;
-    display: block;
-    bottom: 0;
-    right: -1rem;
-    z-index: -2;
-    transition: opacity 0.3s;
-  }
+/* removed #cs-navigation.cs-top-bar:before  */
   #cs-navigation .cs-logo {
     width: 40%;
     max-width: 9.125rem;
