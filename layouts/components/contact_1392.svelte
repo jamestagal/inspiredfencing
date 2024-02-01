@@ -90,7 +90,7 @@
           required
           type="text"
           id="name-1392"
-          name="name"
+          name="entry.2005620554"
           placeholder="Your name"
           bind:value="{name}"
         />
@@ -102,7 +102,7 @@
           required
           type="email"
           id="email-1392"
-          name="email"
+          name="entry.1045781291"
           placeholder="Your email"
           bind:value="{youremail}"
         />
@@ -114,7 +114,7 @@
           required
           type="number"
           id="phone-1392"
-          name="phone"
+          name="entry.1166974658"
           placeholder="Your phone number"
           bind:value="{yourphone}"
         />
@@ -124,7 +124,7 @@
         <textarea
           class="cs-input cs-textarea"
           required
-          name="Message"
+          name="entry.839337160"
           id="message-1392"
           placeholder="Write a message..."
           bind:value="{message}"
