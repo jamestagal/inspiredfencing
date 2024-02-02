@@ -3,9 +3,10 @@
  
    let isFormSubmitted = false;
   
-   function handleSubmit() {
+   function handleSubmit(event) {
     console.log("Form submitted");
     isFormSubmitted = true;
+    event.target.submit()
   }
 </script>
 
