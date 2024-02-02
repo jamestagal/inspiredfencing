@@ -1,5 +1,26 @@
 <script>
   export let subtitle, title, description, phone, email, address, form;
+  import { writable } from 'svelte/store';
+  export let isFormSubmitted = writable(false);
+  async function handleSubmit(event) {
+    event.preventDefault();
+
+    // Perform form submission logic here, for example using fetch
+    // You can replace the URL and data with your own logic
+    const response = await fetch(
+      "https://docs.google.com/forms/d/e/1FAIpQLSdts38ZsMVVctU9aR6-muICqykNAY-PpcTDEwxTtoS7zXbEwA/formResponse",
+      {
+        method: "POST",
+        body: new FormData(event.target),
+      }
+    );
+
+    if (response.ok) {
+       // Update the form submission status using Svelte store
+       await tick();
+       isFormSubmitted.set(true);
+    }
+  }
 </script>
 
 <!-- ============================================ -->
@@ -68,61 +89,81 @@
         </li>
       </ul>
     </div>
-    <!--Form-->
-    <form
-      action="https://docs.google.com/forms/d/e/1FAIpQLSdts38ZsMVVctU9aR6-muICqykNAY-PpcTDEwxTtoS7zXbEwA/formResponse"
-      class="cs-form"
-      id="cs-form-1392"
-      name="Contact Form"
-      method="post"
-    >
-      <h3 class="cs-h3">{form.title}</h3>
-      <label class="cs-label">
-        {form.name}
-        <input
-          class="cs-input"
-          required
-          type="text"
-          id="name-1392"
-          name="entry.2005620554"
-          placeholder="Your name"
-        />
-      </label>
-      <label class="cs-label cs-email">
-        {form.email}
-        <input
-          class="cs-input"
-          required
-          type="email"
-          id="email-1392"
-          name="entry.1045781291"
-          placeholder="Your email"
-        />
-      </label>
-      <label class="cs-label cs-phone">
-        {form.phone}
-        <input
-          class="cs-input"
-          required
-          type="number"
-          id="phone-1392"
-          name="entry.1166974658"
-          placeholder="Your phone number"
-        />
-      </label>
-      <label class="cs-label">
-        {form.message}
-        <textarea
-          class="cs-input cs-textarea"
-          required
-          name="entry.839337160"
-          id="message-1392"
-          placeholder="Write a message..."
-        ></textarea>
-      </label>
-      <button class="cs-button-solid cs-submit" type="submit"
-        >{form.button}</button
+    {#if $isFormSubmitted}
+      <!-- Thank you page content -->
+      <div class="thank-you">
+        <h3 class="cs-title">Thank you for submitting a request!</h3>
+        <p class="cs-text">
+          Look out for an email confirmation and I'll get in touch as soon as
+          possible
+        </p>
+      </div>
+    {:else}
+      <!--Form-->
+      <form
+        on:submit={handleSubmit}
+        action="https://docs.google.com/forms/d/e/1FAIpQLSdts38ZsMVVctU9aR6-muICqykNAY-PpcTDEwxTtoS7zXbEwA/formResponse"
+        class="cs-form"
+        id="cs-form-1392"
+        name="Contact Form"
+        method="post"
       >
-    </form>
+        <h3 class="cs-h3">{form.title}</h3>
+        <label class="cs-label">
+          {form.name}
+          <input
+            class="cs-input"
+            required
+            type="text"
+            id="name-1392"
+            name="entry.2005620554"
+            placeholder="Your name"
+          />
+        </label>
+        <label class="cs-label cs-email">
+          {form.email}
+          <input
+            class="cs-input"
+            required
+            type="email"
+            id="email-1392"
+            name="entry.1045781291"
+            placeholder="Your email"
+          />
+        </label>
+        <label class="cs-label cs-phone">
+          {form.phone}
+          <input
+            class="cs-input"
+            required
+            type="number"
+            id="phone-1392"
+            name="entry.1166974658"
+            placeholder="Your phone number"
+          />
+        </label>
+        <label class="cs-label">
+          {form.message}
+          <textarea
+            class="cs-input cs-textarea"
+            required
+            name="entry.839337160"
+            id="message-1392"
+            placeholder="Write a message..."
+          ></textarea>
+        </label>
+        <button class="cs-button-solid cs-submit" type="submit"
+          >{form.button}</button
+        >
+      </form>
+    {/if}
   </div>
 </section>
+
+<style>
+  .thank-you {
+    background-color: #8fef8f;
+    border: 2px dashed rgb(30, 186, 30);
+    padding: 1em 2em;
+  }
+</style>
