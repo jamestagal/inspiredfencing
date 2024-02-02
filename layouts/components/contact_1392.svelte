@@ -1,25 +1,11 @@
 <script>
   export let subtitle, title, description, phone, email, address, form;
-  import { writable } from 'svelte/store';
-  export let isFormSubmitted = writable(false);
-  async function handleSubmit(event) {
-    event.preventDefault();
-
-    // Perform form submission logic here, for example using fetch
-    // You can replace the URL and data with your own logic
-    const response = await fetch(
-      "https://docs.google.com/forms/d/e/1FAIpQLSdts38ZsMVVctU9aR6-muICqykNAY-PpcTDEwxTtoS7zXbEwA/formResponse",
-      {
-        method: "POST",
-        body: new FormData(event.target),
-      }
-    );
-
-    if (response.ok) {
-       // Update the form submission status using Svelte store
-       await tick();
-       isFormSubmitted.set(true);
-    }
+ 
+   let isFormSubmitted = false;
+  
+   function handleSubmit() {
+    // event.preventDefault(); // prevent the form from submitting normally
+    isFormSubmitted = true;
   }
 </script>
 
@@ -89,8 +75,9 @@
         </li>
       </ul>
     </div>
-    {#if $isFormSubmitted}
+    {#if isFormSubmitted}
       <!-- Thank you page content -->
+      <div class="my-content">
       <div class="thank-you">
         <h3 class="cs-title">Thank you for submitting a request!</h3>
         <p class="cs-text">
@@ -98,6 +85,7 @@
           possible
         </p>
       </div>
+    </div>
     {:else}
       <!--Form-->
       <form
@@ -161,6 +149,14 @@
 </section>
 
 <style>
+
+  .my-content {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .thank-you {
     background-color: #8fef8f;
     border: 2px dashed rgb(30, 186, 30);
