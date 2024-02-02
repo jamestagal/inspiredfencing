@@ -1,12 +1,5 @@
 <script>
   export let subtitle, title, description, phone, email, address, form;
-
-  let name = "";
-  let youremail = "";
-  let message = "";
-  let yourphone = "";
-
-  $: prefilledLink = `https://docs.google.com/forms/d/e/1FAIpQLSdts38ZsMVVctU9aR6-muICqykNAY-PpcTDEwxTtoS7zXbEwA/formResponse?usp=pp_url&entry.2005620554=${name}&entry.1045781291=${youremail}&entry.1166974658=${yourphone}&entry.839337160=${message}&submit=Submit`;
 </script>
 
 <!-- ============================================ -->
@@ -36,12 +29,7 @@
           </picture>
           <div class="cs-flex-group">
             <span class="cs-header">{phone.title}</span>
-            <a
-              href="tel:{phone.number}
-                        "
-              class="cs-link"
-              >{phone.number}
-            </a>
+            <a href="tel:{phone.number}" class="cs-link">{phone.number} </a>
           </div>
         </li>
         <li class="cs-li">
@@ -81,7 +69,13 @@
       </ul>
     </div>
     <!--Form-->
-    <form class="cs-form" id="cs-form-1392" name="Contact Form" method="post">
+    <form
+      action="https://docs.google.com/forms/d/e/1FAIpQLSdts38ZsMVVctU9aR6-muICqykNAY-PpcTDEwxTtoS7zXbEwA/formResponse"
+      class="cs-form"
+      id="cs-form-1392"
+      name="Contact Form"
+      method="post"
+    >
       <h3 class="cs-h3">{form.title}</h3>
       <label class="cs-label">
         {form.name}
@@ -92,7 +86,6 @@
           id="name-1392"
           name="entry.2005620554"
           placeholder="Your name"
-          bind:value="{name}"
         />
       </label>
       <label class="cs-label cs-email">
@@ -104,7 +97,6 @@
           id="email-1392"
           name="entry.1045781291"
           placeholder="Your email"
-          bind:value="{youremail}"
         />
       </label>
       <label class="cs-label cs-phone">
@@ -116,7 +108,6 @@
           id="phone-1392"
           name="entry.1166974658"
           placeholder="Your phone number"
-          bind:value="{yourphone}"
         />
       </label>
       <label class="cs-label">
@@ -127,13 +118,10 @@
           name="entry.839337160"
           id="message-1392"
           placeholder="Write a message..."
-          bind:value="{message}"
         ></textarea>
       </label>
-      <a href="{prefilledLink}" target="_blank">
-        <button class="cs-button-solid cs-submit" type="submit"
-          >{form.button}</button
-        ></a
+      <button class="cs-button-solid cs-submit" type="submit"
+        >{form.button}</button
       >
     </form>
   </div>
