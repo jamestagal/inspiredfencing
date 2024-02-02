@@ -3,8 +3,8 @@
  
    let isFormSubmitted = false;
   
-   function handleSubmit() {
-    // event.preventDefault(); // prevent the form from submitting normally
+   function handleSubmit(event) {
+    event.preventDefault(); // prevent the form from submitting normally
     isFormSubmitted = true;
   }
 </script>
