@@ -1,1 +1,0 @@
-export let env={local:!1,baseurl:"/inspiredfencing/",entrypointHTML:"global/html.svelte",entrypointJS:"DJMLGisgSI",cms:{repo:"",redirectUrl:"",appId:"",branch:""}}
