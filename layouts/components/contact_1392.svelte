@@ -156,6 +156,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20rem;
   }
   .thank-you {
     background-color: #8fef8f;
