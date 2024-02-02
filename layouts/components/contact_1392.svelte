@@ -3,8 +3,8 @@
  
    let isFormSubmitted = false;
   
-   function handleSubmit(event) {
-    event.preventDefault(); // prevent the form from submitting normally
+   function handleSubmit() {
+    console.log("Form submitted");
     isFormSubmitted = true;
   }
 </script>
@@ -89,7 +89,7 @@
     {:else}
       <!--Form-->
       <form
-        on:submit={handleSubmit}
+      on:submit|preventDefault={handleSubmit}
         action="https://docs.google.com/forms/d/e/1FAIpQLSdts38ZsMVVctU9aR6-muICqykNAY-PpcTDEwxTtoS7zXbEwA/formResponse"
         class="cs-form"
         id="cs-form-1392"
