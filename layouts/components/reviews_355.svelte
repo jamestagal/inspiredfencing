@@ -1,8 +1,6 @@
 <script>
   export let subtitle, title, description, button, allContent;
-  let testimonials = allContent.filter(
-    (content) => content.type === "testimonials"
-  );
+  let testimonials = allContent.find(content => content.type === "testimonials");
 </script>
 
 <!-- ============================================ -->
@@ -19,8 +17,8 @@
       </p>
     </div>
     <ul class="cs-card-group">
-      {#each testimonials as testimonial}
-      {#if testimonial.fields.quote.id === 1}
+      {#each testimonials.fields.quote as testimonial}
+      {#if testimonial.id === "1"}
         <li class="cs-item">
           <img
             class="cs-quote"
@@ -32,12 +30,12 @@
             height="33"
           />
           <p class="cs-review">
-            {@html testimonial.fields.quote.description
+            {@html testimonial.description
               ?.substring(0, 120)
               .replace(/(<([^>]+)>)/gi, "")}
           </p>
-          <span class="cs-name">{testimonial.fields.quote.name}</span>
-          <span class="cs-job">{testimonial.fields.quote.location}</span>
+          <span class="cs-name">{testimonial.name}</span>
+          <span class="cs-job">{testimonial.location}</span>
         </li>
         {/if}
       {/each}
