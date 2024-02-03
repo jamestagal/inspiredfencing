@@ -10,7 +10,6 @@
   <base href={env.baseurl} />
   <script type="module" src={`${env.entrypointJS}/core/main.js`}></script>
   <script type="module" src="js/nav.js"></script>
-  <script type="module" src="js/faq.js"></script>
   <!-- Custom styles -->
   <link rel="stylesheet" href="critical.css" />
   <link
