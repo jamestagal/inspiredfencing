@@ -1,6 +1,72 @@
 <!-- ============================================ -->
 <!--                    FAQ                       -->
 <!-- ============================================ -->
+<script>
+    // This stuff below should go into a JSON content source so editors can change it
+    let options = ["Mornington Peninsula", "Frankston City", "Casey", "Cardinia", "Kingston", "Bass Coast", "Baw Baw", "South Gippsland"];
+    let values = [
+        {
+            "title": "Mornington Peninsula",
+            "desc": "Comprising a mixture of urban areas, coastal resort towns, development and rural farm land, the Mornington Peninsula makes way for a wide range of fencing and gate styles. Paling, colorbond and feature front fences are most common in the urban areas but you will find many attractive brush styles particularly in the more beach and coastal regions.",
+            "items": [
+                "Arthurs Seat",
+                "Balnarring",
+                "Balnarring Beach",
+                "Baxter",
+                "Bittern",
+                "Blairgowrie",
+                "Boneo",
+                "Cape Schanck",
+                "Capel Sound",
+                "Crib Point",
+                "Dromana",
+                "Fingal",
+                "Flinders",
+                "Hastings",
+                "HMAS Cerberus",
+                "Main Ridge",
+                "McCrae",
+                "Merricks",
+                "Merricks Beach",
+                "Merricks North",
+                "Moorooduc",
+                "Mornington",
+                "Mount Eliza",
+                "Mount Martha",
+                "Pearcedale (part)",
+                "Point Leo",
+                "Portsea",
+                "Red Hill",
+                "Red Hill South",
+                "Rosebud",
+                "Rye",
+                "Safety Beach",
+                "Shoreham",
+                "Somers",
+                "Somerville",
+                "Sorrento",
+                "St Andrews Beach",
+                "Tootgarook",
+                "Tuerong and Tyabb",
+            ]
+        },
+        {
+            "title": "Frankston City",
+            "desc": "The district has many major industry sectors including construction, manufacturing, retail, property and personal business services. Many fences and fencing solutions are required across the City of Frankston. With older homes and building requiring maintenance as well as multiple property developments across different areas new construction and maintenance is always needed.",
+            "items": [
+                "Carrum Downs",
+                "Frankston",
+                "Frankston North",
+                "Frankston South",
+                "Langwarrin",
+                "Langwarrin South",
+                "Sandhurst",
+                "Seaford and Skye",
+            ]
+        }
+    ]
+    let selected = options[0];
+</script>
 
 <section id="faq-1346">
     <div class="cs-container">
@@ -14,160 +80,43 @@
         <div class="cs-flex-group">
             <div class="cs-button-group">
                 <!--If you need to add another button, make sure to copy and paste from one of the buttons here and increment the data-filter value, so the next one would be data-filter="four", and so on-->
-                <button class="cs-option" data-filter="one">
-                    Mornington Peninsula
-                </button>
-                <button class="cs-option" data-filter="two">
-                    Frankston City
-                </button>
-                <button href="#casey" class="cs-option" data-filter="three">
-                    Casey
-                </button>
-                <button class="cs-option" data-filter="four">
-                    Cardinia
-                </button>
-                <button class="cs-option" data-filter="five">
-                    Kingston
-                </button>
-                <button class="cs-option" data-filter="six">
-                    Bass Coast
-                </button>
-                <button class="cs-option" data-filter="seven">
-                    Baw Baw
-                </button>
-                <button class="cs-option" data-filter="eight">
-                    South Gippsland
-                </button>
+                {#each options as option, i}
+                    <button
+                        class="cs-option{selected === option ? ' active' : ''}"
+                        on:click={() => selected = option}
+                        data-filter="{i}"
+                    >
+                        {option}
+                    </button>
+                {/each}
             </div>
             <!--We need this wrapper so the absolutely positioned FAQ lists can be positioned to the top of it to so the animations don't amke it overlap the buttons group above it. We needed a wrapper div around it for the faq lists to be relatively positioned to in order to get the effect we wanted-->
             <div class="cs-wrapper">
+                {#each values as value, i}
                 <!--If you add more FAQ's, copy and paste of of the .cs-faq-grop lists and increment the data-category to the next number. We have three right now, if you added a fourth you'd change it to data-category="four" to correspond to the new button you created in the .cs-button-group. The filter and category data attributes need to match so they can work together-->
-                <ul class="cs-faq-group" data-category="one">
+                <ul class="cs-faq-group{selected === value.title ? '' : ' cs-hidden'}" data-category="{i}">
                     <!-- Active class added as default -->
                     <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
-                                Mornington Peninsula
+                               {value.title}
                             </span>
                         </button>
                         <p class="cs-item-p">
-                            Comprising a mixture of urban areas, coastal resort towns, development and rural farm land, the Mornington Peninsula makes way for a wide range of fencing and gate styles. Paling, colorbond and feature front fences are most common in the urban areas but you will find many attractive brush styles particularly in the more beach and coastal regions.
+                            {value.desc}
                         </p>
                         <ul class="ul cs-item-p">
+                            {#each value.items as item}
                             <li>
-                                <span>Arthurs Seat</span></li>
-                            <li>
-                                <span>Balnarring</span></li>
-                            <li>
-                                <span>Balnarring Beach</span></li>
-                            <li>
-                                <span>Baxter</span></li>
-                            <li>
-                                <span>Bittern</span></li>
-                            <li>
-                                <span>Blairgowrie</span></li>
-                            <li>
-                                <span>Boneo</span></li>
-                            <li>
-                                <span>Cape Schanck</span></li>
-                            <li>
-                                <span>Capel Sound</span></li>
-                            <li>
-                                <span>Crib Point</span></li>
-                            <li>
-                                <span>Dromana</span></li>
-                            <li>
-                                <span>Fingal</span></li>
-                            <li>
-                                <span>Flinders</span></li>
-                            <li>
-                                <span>Hastings</span></li>
-                            <li>
-                                <span>HMAS Cerberus</span></li>
-                            <li>
-                                <span>Main Ridge</span></li>
-                            <li>
-                                <span>McCrae</span></li>
-                            <li>
-                                <span>Merricks</span></li>
-                            <li>
-                                <span>Merricks Beach</span></li>
-                            <li>
-                                <span>Merricks North</span></li>
-                            <li>
-                                <span>Moorooduc</span></li>
-                            <li>
-                                <span>Mornington</span></li>
-                            <li>
-                                <span>Mount Eliza</span></li>
-                            <li>
-                                <span>Mount Martha</span></li>
-                            <li>
-                                <span>Pearcedale (part)</span></li>
-                            <li>
-                                <span>Point Leo</span></li>
-                            <li>
-                                <span>Portsea</span></li>
-                            <li>
-                                <span>Red Hill</span></li>
-                            <li>
-                                <span>Red Hill South</span></li>
-                            <li>
-                                <span>Rosebud</span></li>
-                            <li>
-                                <span>Rye</span></li>
-                            <li>
-                                <span>Safety Beach</span></li>
-                            <li>
-                                <span>Shoreham</span></li>
-                            <li>
-                                <span>Somers</span></li>
-                            <li>
-                                <span>Somerville</span></li>
-                            <li>
-                                <span>Sorrento</span></li>
-                            <li>
-                                <span>St Andrews Beach</span></li>
-                            <li>
-                                <span>Tootgarook</span></li>
-                            <li>
-                                <span>Tuerong and Tyabb</span></li>
+                                <span>{item}</span>
+                            </li>
+                            {/each}
                         </ul>
                     </li>
                 </ul>
-                <ul class="cs-faq-group" data-category="two">
-                    <!-- Active class added as default -->
-                    <li class="cs-faq-item active">
-                        <button class="cs-button">
-                            <span class="cs-button-text">
-                                Frankston City
-                            </span>
-                        </button>
-                        <p class="cs-item-p">
-                            The district has many major industry sectors including construction, manufacturing, retail, property and personal business services. Many fences and fencing solutions are required across the City of Frankston. With older homes and building requiring maintenance as well as multiple property developments across different areas new construction and maintenance is always needed.
-                        </p>
-                        <ul class="ul cs-item-p">
-                            <li>
-                                <span>Carrum Downs</span></li>
-                            <li>
-                                <span>Frankston</span></li>
-                            <li>
-                                <span>Frankston North</span></li>
-                            <li>
-                                <span>Frankston South</span></li>
-                            <li>
-                                <span>Langwarrin</span></li>
-                            <li>
-                                <span>Langwarrin South</span></li>
-                            <li>
-                                <span>Sandhurst</span></li>
-                            <li>
-                                <span>Seaford and Skye</span></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul id="casey" class="cs-faq-group" data-category="three">
-                    <!-- Active class added as default -->
+                {/each}
+                <!-- Copy all these to the top (or even better put them into a JSON content source)
+                <ul id="casey" class="cs-faq-group" data-category="2">
                     <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
@@ -235,8 +184,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="cs-faq-group" data-category="four">
-                    <!-- Active class added as default -->
+                <ul class="cs-faq-group" data-category="3">
                     <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
@@ -342,8 +290,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="cs-faq-group" data-category="five">
-                    <!-- Active class added as default -->
+                <ul class="cs-faq-group" data-category="4">
                     <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
@@ -397,8 +344,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="cs-faq-group" data-category="six">
-                    <!-- Active class added as default -->
+                <ul class="cs-faq-group" data-category="5">
                     <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
@@ -450,8 +396,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="cs-faq-group" data-category="seven">
-                    <!-- Active class added as default -->
+                <ul class="cs-faq-group" data-category="6">
                     <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
@@ -463,8 +408,7 @@
                         </p>
                     </li>
                 </ul>
-                <ul class="cs-faq-group cs-hidden" data-category="eight">
-                    <!-- Active class added as default -->
+                <ul class="cs-faq-group cs-hidden" data-category="7">
                     <li class="cs-faq-item active">
                         <button class="cs-button">
                             <span class="cs-button-text">
@@ -476,6 +420,7 @@
                         </p>
                     </li>
                 </ul>
+                -->
             </div>
         </div>
     </div>
