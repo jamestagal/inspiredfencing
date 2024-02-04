@@ -70,7 +70,7 @@
       </nav>
       <a href="contact" class="cs-button-solid cs-nav-button">Contact Us</a>
       <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
-      <button id="dark-mode-toggle" aria-label="dark mode toggle">
+<!--       <button id="dark-mode-toggle" aria-label="dark mode toggle">
         <svg
           class="cs-moon"
           xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +90,7 @@
           width="15"
           height="15"
         />
-      </button>
+      </button> -->
     </div>
   </header>
   
