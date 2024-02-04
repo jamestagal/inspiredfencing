@@ -1848,6 +1848,7 @@
       padding-top: clamp(3.75em, 11vw, 12.5em);
       /* clips the cs-background section so it doesn't cause any overflow issues when it breaks the container */
       overflow: hidden;
+      background-color: #f7f7f7;
   }
   #services-479 .cs-container {
       width: 100%;
@@ -2016,6 +2017,7 @@
       justify-content: flex-start;
       align-items: flex-end;
       position: relative;
+      z-index: 1;
   }
   #services-479 .cs-background {
       /* width and height set in vw units so the grow as the screen grows.  We go over 100vw so they are long enough push outside the cs-container, passed the section padding, and off screen to mimic the lok in the design, they are reset at tablet */
@@ -2167,7 +2169,7 @@
 @media only screen and (min-width: 0rem) {
   #reviews-607 {
       padding: var(--sectionPadding);
-      background-color: #f7f7f7;
+      background-color: #fff;
   }
   #reviews-607 .cs-container {
       width: 100%;
@@ -2225,7 +2227,7 @@
   }
   #reviews-607 .cs-h3 {
       /* 20px - 25px */
-      font-size: clamp(1.25rem, 4vw, 1.5625rem);
+      font-size: clamp(1.25rem, 4vw, 1.3rem);
       line-height: 1.2em;
       font-weight: 700;
       margin: 0 0 1.5rem 0;
