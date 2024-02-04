@@ -22,57 +22,245 @@
 		{
 			"name": "faq_1346",
 			"fields": {
-				"title": "Residentail & Commercial Fencing",
-				"subtitle": "OUR FENCING SERVICES",
-				"description": "Inspired Fencing offers a comprehensive range of fencing services from homes and apartment complexes to commercial properties and office spaces that are backed by Inspired Fencing's steadfast commitment to excellence, quality, fair rates, and our 100% satisfaction guarantee.",
-				"card1": {
-					"title": "Design",
-					"description": "Inspired Fencing specializes in crafting innovative and aesthetically pleasing designs for fences and gates, ensuring a perfect blend of functionality and style.",
-					"image": {
-						"url": "media/images/Design.jpeg",
-						"alt": "leaves"
+				"subtitle": "Service Areas",
+				"title": "Areas We Service",
+				"description": "Inspired Fencing offers services across the areas of the Mornington Peninsula, Frankston, Casey, Kingston, Bass Coast, Cardinia, Baw Baw and South Gippsland. Please see below for an overview and a detailed list of the suburbs and localities we cover.",
+				"area_Options": [
+					"Mornington Peninsula",
+					"Frankston City",
+					"Casey",
+					"Cardinia",
+					"Kingston",
+					"Bass Coast",
+					"Baw Baw",
+					"South Gippsland"
+				],
+				"area_Lists": [
+					{
+						"title": "Mornington Peninsula",
+						"desc": "Comprising a mixture of urban areas, coastal resort towns, development and rural farm land, the Mornington Peninsula makes way for a wide range of fencing and gate styles. Paling, colorbond and feature front fences are most common in the urban areas but you will find many attractive brush styles particularly in the more beach and coastal regions.",
+						"items": [
+							"Arthurs Seat",
+							"Balnarring",
+							"Balnarring Beach",
+							"Baxter",
+							"Bittern",
+							"Blairgowrie",
+							"Boneo",
+							"Cape Schanck",
+							"Capel Sound",
+							"Crib Point",
+							"Dromana",
+							"Fingal",
+							"Flinders",
+							"Hastings",
+							"HMAS Cerberus",
+							"Main Ridge",
+							"McCrae",
+							"Merricks",
+							"Merricks Beach",
+							"Merricks North",
+							"Moorooduc",
+							"Mornington",
+							"Mount Eliza",
+							"Mount Martha",
+							"Pearcedale (part)",
+							"Point Leo",
+							"Portsea",
+							"Red Hill",
+							"Red Hill South",
+							"Rosebud",
+							"Rye",
+							"Safety Beach",
+							"Shoreham",
+							"Somers",
+							"Somerville",
+							"Sorrento",
+							"St Andrews Beach",
+							"Tootgarook",
+							"Tuerong and Tyabb"
+						]
 					},
-					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
-					}
-				},
-				"card2": {
-					"title": "Install",
-					"description": "With a foundation built on reliability and professionalism, Inspired Fencing excels in expertly installing high-quality fences and gates for homeowners on the Mornington Peninsula.",
-					"image": {
-						"url": "media/images/Install.jpeg",
-						"alt": "Installing a fence"
+					{
+						"title": "Frankston City",
+						"desc": "The district has many major industry sectors including construction, manufacturing, retail, property and personal business services. Many fences and fencing solutions are required across the City of Frankston. With older homes and building requiring maintenance as well as multiple property developments across different areas new construction and maintenance is always needed.",
+						"items": [
+							"Carrum Downs",
+							"Frankston",
+							"Frankston North",
+							"Frankston South",
+							"Langwarrin",
+							"Langwarrin South",
+							"Sandhurst",
+							"Seaford and Skye"
+						]
 					},
-					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
-					}
-				},
-				"card3": {
-					"title": "Repair",
-					"description": "Backed by years of experience and a commitment to honesty, Inspired Fencing offers efficient and trustworthy repair services, restoring the durability and appeal of existing fences and gates.",
-					"image": {
-						"url": "media/images/Repair.jpeg",
-						"alt": "Repairing a fence"
+					{
+						"title": "Casey",
+						"desc": "As fastest growing municipality in Victoria the city of Casey has one of the highest demands for fence construction. We have built many fences across the region and will be doing so for many years to come. There are numerous developments and housing estates across Clyde, the new Brompton, Lochhaven and Amstel estates around Cranbourne and the Arcadia estate in Botanic Ridge. Here you will find paling fences with exposed pointed posts and capping and various driveway and entrance gates. You will find Colorbond with exposed timber posts and capping in Botanic Ridge as well as numerous other Colorbond fence styles across the Casey region.",
+						"items": [
+							"Berwick",
+							"Blind Bight",
+							"Botanic Ridge",
+							"Cannons Creek",
+							"Clyde",
+							"Clyde North",
+							"Cranbourne",
+							"Cranbourne East",
+							"Cranbourne North",
+							"Cranbourne South",
+							"Cranbourne West",
+							"Devon Meadows",
+							"Doveton",
+							"Endeavour Hills",
+							"Eumemmerring",
+							"Hallam",
+							"Hampton Park",
+							"Harkaway",
+							"Junction Village",
+							"Lynbrook",
+							"Lyndhurst (part)",
+							"Lysterfield South",
+							"Narre Warren",
+							">Narre Warren North",
+							"Narre Warren South",
+							"Pearcedale (part)",
+							"Tooradin (part) and Warneet"
+						]
 					},
-					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
-					}
-				},
-				"card4": {
-					"title": "Replace",
-					"description": "Inspired Fencing is ready to replace worn-out or outdated fences and gates with premium Australian-made products, providing homeowners with durable and stylish solutions.",
-					"image": {
-						"url": "media/images/Replace.jpeg",
-						"alt": "Replacing a fence"
+					{
+						"title": "Cardinia",
+						"desc": "This is a rural and horticultural hinterland with farms, agriculture and product manufacturing and with a rapidly growing population. Cardinia Shire has many established and expanding housing estates across Pakenham, Officer, Tooradin, Koo Wee Rup and Lang Lang.",
+						"items": [
+							"Avonsleigh",
+							"Bayles",
+							"Beaconsfield (part)",
+							"Beaconsfield Upper",
+							"Bunyip",
+							"Bunyip North",
+							"Caldermeade",
+							"Cardinia",
+							"Catani",
+							"Clematis",
+							"Cockatoo",
+							"Cora Lynn",
+							"Dalmore",
+							"Dewhurst",
+							"Emerald (part)",
+							"Garfield",
+							"Garfield North",
+							"Gembrook",
+							"Guys Hill",
+							"Heath Hill (part)",
+							"Iona",
+							"Koo Wee Rup",
+							"Koo Wee Rup North",
+							"Lang Lang (part)",
+							"Lang Lang East",
+							"Longwarry (part)",
+							"Maryknoll",
+							"Menzies Creek (part)",
+							"Modella (part)",
+							"Monomeith",
+							"Mount Burnett",
+							"Nangana",
+							"Nar Nar Goon",
+							"Nar Nar Goon North",
+							"Nyora (part)",
+							"Officer",
+							"Officer South",
+							"Pakenham",
+							"Pakenham South",
+							"Pakenham Upper",
+							"Rythdale",
+							"Tonimbuk",
+							"Tooradin (part)",
+							"Tynong",
+							"Tynong North",
+							"Vervale and Yannathan"
+						]
 					},
-					"icon": {
-						"url": "media/svg/buildings.svg",
-						"alt": "design icon"
+					{
+						"title": "Kingston",
+						"desc": " A large area with many older homes needing fence replacement and repairs along with new builds and property sub divisions. Homes around the bayside of Kingston City can often demand the decorative or feature elements to its fences and gates. Decorative screens will also extra touch to the property. Properties. Industrial areas will have wire mesh security fencing and with many schools having steel and tubular fences.",
+						"items": [
+							"Aspendale",
+							"Aspendale Gardens",
+							"Bonbeach",
+							"Braeside",
+							"Carrum",
+							"Chelsea",
+							"Chelsea Heights",
+							"Cheltenham (part)",
+							"Clarinda",
+							"Clayton South",
+							"Dingley Village",
+							"Edithvale",
+							"Heatherton Highett (part)",
+							"Mentone",
+							"Moorabbin",
+							"Moorabbin Airport",
+							"Mordialloc",
+							"Oakleigh South (part)",
+							"Parkdale",
+							"Patterson Lakes and Waterways"
+						]
+					},
+					{
+						"title": "Bass Coast",
+						"desc": "This is an area with two main industries: tourism and agriculture. With one of the highest growth rates in Victoria during peak holiday periods the population can grow to over 60000 in this area where the beautiful coastline meets the hinterland. With upcoming developments in Grantville, Coronet Bay and Philip Island, we are seeing many new paling fences gates and other fence styles in these areas as well wired fencing across acreages.",
+						"items": [
+							"Bass",
+							"Coronet Bay",
+							"Cowes",
+							"Dalyston",
+							"Grantville",
+							"Inverloch",
+							"Jam Jerrup",
+							"Lang Lang",
+							"Loch",
+							"Newhaven",
+							"North Wonthaggi",
+							"Pioneer Bay",
+							"Rhyll",
+							"San Remo",
+							"Silverleaves",
+							"Smiths Beach",
+							"The Gurdies",
+							"Wonthaggi",
+							"Woolamai"
+						]
+					},
+					{
+						"title": "Baw Baw",
+						"desc": " A predominantly rural area Baw Baw comprises of industry including horticulture, dairy farming and forestry. This area is seeing more urban growth particularly in the Drouin and Warragul areas, with new estates requiring fencing including paling and colorbond styles, driveway and entry gates. Below are just a few suburbs in this area.",
+						"items": [
+							"Aberfeldy",
+							"Drouin",
+							"Walhalla",
+							"Noojee",
+							"Tanjil Bren",
+							"Yarragon"
+						]
+					},
+					{
+						"title": "South Gippsland",
+						"desc": "A widespread area of rural and farming land, South Gippsland has an array of retail trade, fishing hospitality and tourism. This region requires a mixture of all fences and gates including residential, farming, commercial along with public recreational areas.",
+						"items": [
+							"Dumbalk",
+							"Fish Creek",
+							"Loch",
+							"Meeniyan",
+							"Nyora",
+							"Poowong",
+							"Port Welshpool",
+							"Sandy Point",
+							"Tarwin Lower",
+							"Toora",
+							"Venus Bay"
+						]
 					}
-				}
+				]
 			}
 		},
 		{
