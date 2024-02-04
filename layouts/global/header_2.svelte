@@ -72,7 +72,7 @@ function setActive(id) {
       </picture>
       <div class="cs-flex">
         <span class="cs-header">Send A Message</span>
-        <a href="mailto:inspiredfencing@outlook.com" class="cs-link">inspiredfencing@outlook.com</a>
+        <a href="mailto:info@inspiredfencing.com.au" class="cs-link">info@inspiredfencing.com.au</a>
       </div>
     </li>
     <li class="cs-item cs-remove">
@@ -135,16 +135,6 @@ function setActive(id) {
               Services
             </a>
           </li>
-          <li on:click={() => setActive("areas")} class="cs-li">
-            <a
-              href="areas"
-              class="cs-li-link {activeItem.id === 'areas'
-                ? 'cs-active'
-                : ''}"
-            >
-              Service Areas
-            </a>
-          </li>
           <li on:click={() => setActive("projects")} class="cs-li">
             <a
               href="projects"
@@ -155,16 +145,6 @@ function setActive(id) {
               Projects
             </a>
           </li>
- <!--          <li on:click={() => setActive("news")} class="cs-li">
-            <a
-              href="news"
-              class="cs-li-link {activeItem.id === 'news'
-                ? 'cs-active'
-                : ''}"
-            >
-              News
-            </a>
-          </li> -->
           <li on:click={() => setActive("gallery")} class="cs-li">
             <a
               href="gallery"
@@ -183,6 +163,16 @@ function setActive(id) {
                 : ''}"
             >
               Testimonials
+            </a>
+          </li>
+          <li on:click={() => setActive("areas")} class="cs-li">
+            <a
+              href="areas"
+              class="cs-li-link {activeItem.id === 'areas'
+                ? 'cs-active'
+                : ''}"
+            >
+              Service Areas
             </a>
           </li>
           <li on:click={() => setActive("contact")} class="cs-li">
