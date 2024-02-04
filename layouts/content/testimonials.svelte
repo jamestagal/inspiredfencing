@@ -4,7 +4,7 @@
 </script>
 
 <!-- ============================================ -->
-<!--                   Banner                     -->
+<!--                   Banner 559                 -->
 <!-- ============================================ -->
 
 <div id="banner-559">
@@ -39,7 +39,7 @@
             </p>
         </div>
         <ul class="cs-card-group">
-            {#each quote as quotes, i}
+            {#each quote as quotes}
             <li class="cs-item">
                 <img class="cs-icon" src="media/svg/green-quote-marks.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
                 <h3 class="cs-h3">{quotes.title}</h3>
