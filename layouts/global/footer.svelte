@@ -27,16 +27,16 @@
           <a href="service" class="cs-link">Service</a>
         </li>
         <li class="cs-li">
-          <a href="areas" class="cs-link">Service areas</a>
-        </li>
-        <li class="cs-li">
           <a href="projects" class="cs-link">Projects</a>
         </li>
         <li class="cs-li">
           <a href="gallery" class="cs-link">Gallery</a>
         </li>
         <li class="cs-li">
-          <a href="testimonials" class="cs-link">testimonials</a>
+          <a href="testimonials" class="cs-link">Testimonials</a>
+        </li>
+        <li class="cs-li">
+          <a href="areas" class="cs-link">Service areas</a>
         </li>
         <li class="cs-li">
           <a href="contact" class="cs-link">Contact</a>
