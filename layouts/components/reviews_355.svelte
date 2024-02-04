@@ -18,7 +18,7 @@
     </div>
     <ul class="cs-card-group">
       {#each testimonials.fields.quote as testimonial}
-      {#if testimonial.id === "1"}
+      {#if testimonial.id === "1" || testimonial.id === "2" || testimonial.id === "3"}
         <li class="cs-item">
           <img
             class="cs-quote"
@@ -31,8 +31,8 @@
           />
           <p class="cs-review">
             {@html testimonial.description
-              ?.substring(0, 120)
-              .replace(/(<([^>]+)>)/gi, "")}
+              ?.substring(0, 136)
+              .replace(/(<([^>]+)>)/gi, "" ) + ' ...'}
           </p>
           <span class="cs-name">{testimonial.name}</span>
           <span class="cs-job">{testimonial.location}</span>
