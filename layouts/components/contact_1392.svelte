@@ -91,7 +91,7 @@
       <!--Form-->
       <form
       on:submit|preventDefault={handleSubmit}
-        action="https://docs.google.com/forms/d/e/1FAIpQLSdts38ZsMVVctU9aR6-muICqykNAY-PpcTDEwxTtoS7zXbEwA/formResponse"
+        action="https://docs.google.com/forms/d/e/1FAIpQLSfg_g5sp2AuOd1bDPe0G3geyjtduZPkoWU5eFfw-QTZRLhFEQ/formResponse"
         class="cs-form"
         id="cs-form-1392"
         name="Contact Form"
