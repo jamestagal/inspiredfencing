@@ -3,6 +3,25 @@
   let testimonials = allContent.find(
     (content) => content.type === "testimonials"
   );
+
+  let RandomQuotes = allContent.filter((content) => content.type === "testimonials" && testimonials.fields.quote === "id");
+  const shuffle = (array) => {
+    let currentIndex = array.length,
+      randomIndex;
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex],
+        array[currentIndex],
+      ];
+    }
+    return array;
+  };
+  RandomQuotes = shuffle(RandomQuotes);
   // import Banner from "../components/banner_559.svelte";
 </script>
 
@@ -20,8 +39,8 @@
       </p>
     </div>
     <ul class="cs-card-group">
-      {#each testimonials.fields.quote as testimonial}
-        {#if testimonial.id === "1" || testimonial.id === "2" || testimonial.id === "3"}
+      {#each testimonials.fields.quote as testimonial, i}
+        {#if RandomQuotes && i < 3}
           <li class="cs-item">
             <img
               class="cs-icon"
@@ -36,7 +55,7 @@
             <h3 class="cs-h3">{testimonial.title}</h3>
             <p class="cs-item-text">
               {@html testimonial.description
-                ?.substring(0, 136)
+                ?.substring(0, 155)
                 .replace(/(<([^>]+)>)/gi, "") + " ..."}
             </p>
             <span class="cs-name">{testimonial.name}</span>
