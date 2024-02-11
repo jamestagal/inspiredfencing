@@ -1,27 +1,17 @@
 <script>
   export let title;
 
-/*   let navActive;
-  const toggleMenu = () => {
-    navActive = !navActive;
-  };  */
-
-/*   let isActive = true;
-
-function setActive(id) {
-  activeItem.id = id;
-  isActive = !isActive;
-} */
-
-
   let activeItem = { id: "home", isActive: true };
+  let isMenuOpen = false;
 
-  function setActive(item) {
+  function setActiveAndToggle(item) {
     if (activeItem && activeItem.id !== item) {
       activeItem.isActive = false;
     }
     activeItem = { id: item, isActive: true };
+    isMenuOpen = false;
   }
+
 </script>
 
 <!-- ============================================ -->
@@ -103,7 +93,7 @@ function setActive(id) {
     <!-- svelte-ignore a11y-no-redundant-roles -->
     <nav class="cs-nav" role="navigation">
       <!--Mobile Nav Toggle-->
-      <button class="cs-toggle" aria-label="mobile menu toggle">
+      <button class="cs-toggle" aria-label="mobile menu toggle" on:click={() => isMenuOpen = !isMenuOpen}>
         <div class="cs-box" aria-hidden="true">
           <span class="cs-line cs-line1" aria-hidden="true"></span>
           <span class="cs-line cs-line2" aria-hidden="true"></span>
@@ -113,8 +103,8 @@ function setActive(id) {
       <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
       <div class="cs-ul-wrapper">
         <!-- svelte-ignore a11y-role-supports-aria-props -->
-        <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
-          <li on:click={() => setActive("home")} class="cs-li">
+        <ul id="cs-expanded" class="cs-ul" aria-expanded={isMenuOpen}>
+          <li on:click={() => setActiveAndToggle("home")} class="cs-li">
             <a
               href="."
               class="cs-li-link {activeItem.id === 'home' ? 'cs-active' : ''}"
@@ -122,7 +112,7 @@ function setActive(id) {
               Home
             </a>
           </li>
-          <li on:click={() => setActive("about")} class="cs-li">
+          <li on:click={() => setActiveAndToggle("about")} class="cs-li">
             <a
               href="about"
               class="cs-li-link {activeItem.id === 'about' ? 'cs-active' : ''}"
@@ -130,7 +120,7 @@ function setActive(id) {
               About
             </a>
           </li>
-          <li on:click={() => setActive("services")} class="cs-li">
+          <li on:click={() => setActiveAndToggle("services")} class="cs-li">
             <a
               href="services"
               class="cs-li-link {activeItem.id === 'services'
@@ -140,7 +130,7 @@ function setActive(id) {
               Services
             </a>
           </li>
-          <li on:click={() => setActive("projects")} class="cs-li">
+          <li on:click={() => setActiveAndToggle("projects")} class="cs-li">
             <a
               href="projects"
               class="cs-li-link {activeItem.id === 'projects'
@@ -150,7 +140,7 @@ function setActive(id) {
               Projects
             </a>
           </li>
-          <li on:click={() => setActive("gallery")} class="cs-li">
+          <li on:click={() => setActiveAndToggle("gallery")} class="cs-li">
             <a
               href="gallery"
               class="cs-li-link {activeItem.id === 'gallery'
@@ -160,7 +150,7 @@ function setActive(id) {
               Gallery
             </a>
           </li>
-          <li on:click={() => setActive("testimonials")} class="cs-li">
+          <li on:click={() => setActiveAndToggle("testimonials")} class="cs-li">
             <a
               href="testimonials"
               class="cs-li-link {activeItem.id === 'testimonials'
@@ -170,7 +160,7 @@ function setActive(id) {
               Testimonials
             </a>
           </li>
-          <li on:click={() => setActive("areas")} class="cs-li">
+          <li on:click={() => setActiveAndToggle("areas")} class="cs-li">
             <a
               href="areas"
               class="cs-li-link {activeItem.id === 'areas' ? 'cs-active' : ''}"
@@ -178,7 +168,7 @@ function setActive(id) {
               Service Areas
             </a>
           </li>
-          <li on:click={() => setActive("contact")} class="cs-li">
+          <li on:click={() => setActiveAndToggle("contact")} class="cs-li">
             <a
               href="contact"
               class="cs-li-link {activeItem.id === 'contact'
