@@ -13,6 +13,7 @@ function setActive(id) {
   isActive = !isActive;
 } */
 
+
   let activeItem = { id: "home", isActive: true };
 
   function setActive(item) {
@@ -72,7 +73,9 @@ function setActive(id) {
       </picture>
       <div class="cs-flex">
         <span class="cs-header">Send A Message</span>
-        <a href="mailto:info@inspiredfencing.com.au" class="cs-link">info@inspiredfencing.com.au</a>
+        <a href="mailto:info@inspiredfencing.com.au" class="cs-link"
+          >info@inspiredfencing.com.au</a
+        >
       </div>
     </li>
     <li class="cs-item cs-remove">
@@ -89,7 +92,9 @@ function setActive(id) {
       </picture>
       <div class="cs-flex">
         <span class="cs-header">Visit Us At</span>
-        <a href="." class="cs-link">Frankston Flinders Rd, 3912 Somerville, Victoria, Australia</a>
+        <a href="." class="cs-link"
+          >Frankston Flinders Rd, 3912 Somerville, Victoria, Australia</a
+        >
       </div>
     </li>
   </ul>
@@ -109,7 +114,7 @@ function setActive(id) {
       <div class="cs-ul-wrapper">
         <!-- svelte-ignore a11y-role-supports-aria-props -->
         <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
-          <li on:click={() => setActive("home")} class:cs-active={activeItem === 'home'} class="cs-li">
+          <li on:click={() => setActive("home")} class="cs-li">
             <a
               href="."
               class="cs-li-link {activeItem.id === 'home' ? 'cs-active' : ''}"
@@ -168,9 +173,7 @@ function setActive(id) {
           <li on:click={() => setActive("areas")} class="cs-li">
             <a
               href="areas"
-              class="cs-li-link {activeItem.id === 'areas'
-                ? 'cs-active'
-                : ''}"
+              class="cs-li-link {activeItem.id === 'areas' ? 'cs-active' : ''}"
             >
               Service Areas
             </a>
