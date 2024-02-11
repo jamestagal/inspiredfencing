@@ -1,7 +1,6 @@
 <script>
   export let subtitle, title, description, area_Options, area_Lists;
-
-  let selected = area_Options[0]?.title;
+  let selected = area_Lists[0]?.title;
 </script>
 
 <!-- ============================================ -->
