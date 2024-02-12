@@ -1,5 +1,5 @@
 default:
-   image: 'docker:stable'
+   image: docker:stable
 before_script:
    - 'apk add --update curl wget && rm -rf /var/cache/apk/*'
 pages:
