@@ -1,14 +1,11 @@
 <script>
   export let title;
 
-  let activeItem = { id: "home", isActive: true };
+  let activeItem = "home";
   let isMenuOpen = false;
 
   function setActiveAndToggle(item) {
-    if (activeItem && activeItem.id !== item) {
-      activeItem.isActive = false;
-    }
-    activeItem = { id: item, isActive: true };
+    activeItem = item;
     isMenuOpen = false;
   }
 
@@ -107,7 +104,7 @@
           <li on:click={() => setActiveAndToggle("home")} class="cs-li">
             <a
               href="."
-              class="cs-li-link {activeItem.id === 'home' ? 'cs-active' : ''}"
+              class="cs-li-link {activeItem === 'home' ? 'cs-active' : ''}"
             >
               Home
             </a>
@@ -115,7 +112,7 @@
           <li on:click={() => setActiveAndToggle("about")} class="cs-li">
             <a
               href="about"
-              class="cs-li-link {activeItem.id === 'about' ? 'cs-active' : ''}"
+              class="cs-li-link {activeItem === 'about' ? 'cs-active' : ''}"
             >
               About
             </a>
@@ -123,7 +120,7 @@
           <li on:click={() => setActiveAndToggle("services")} class="cs-li">
             <a
               href="services"
-              class="cs-li-link {activeItem.id === 'services'
+              class="cs-li-link {activeItem === 'services'
                 ? 'cs-active'
                 : ''}"
             >
@@ -133,7 +130,7 @@
           <li on:click={() => setActiveAndToggle("projects")} class="cs-li">
             <a
               href="projects"
-              class="cs-li-link {activeItem.id === 'projects'
+              class="cs-li-link {activeItem === 'projects'
                 ? 'cs-active'
                 : ''}"
             >
@@ -143,7 +140,7 @@
           <li on:click={() => setActiveAndToggle("gallery")} class="cs-li">
             <a
               href="gallery"
-              class="cs-li-link {activeItem.id === 'gallery'
+              class="cs-li-link {activeItem === 'gallery'
                 ? 'cs-active'
                 : ''}"
             >
@@ -153,7 +150,7 @@
           <li on:click={() => setActiveAndToggle("testimonials")} class="cs-li">
             <a
               href="testimonials"
-              class="cs-li-link {activeItem.id === 'testimonials'
+              class="cs-li-link {activeItem === 'testimonials'
                 ? 'cs-active'
                 : ''}"
             >
@@ -163,7 +160,7 @@
           <li on:click={() => setActiveAndToggle("areas")} class="cs-li">
             <a
               href="areas"
-              class="cs-li-link {activeItem.id === 'areas' ? 'cs-active' : ''}"
+              class="cs-li-link {activeItem === 'areas' ? 'cs-active' : ''}"
             >
               Service Areas
             </a>
@@ -171,7 +168,7 @@
           <li on:click={() => setActiveAndToggle("contact")} class="cs-li">
             <a
               href="contact"
-              class="cs-li-link {activeItem.id === 'contact'
+              class="cs-li-link {activeItem === 'contact'
                 ? 'cs-active'
                 : ''}"
             >
