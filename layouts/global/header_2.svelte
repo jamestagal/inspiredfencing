@@ -18,7 +18,7 @@
 <!--                 Navigation                   -->
 <!-- ============================================ -->
 
-<header id="cs-navigation">
+<header id="cs-navigation" class="{isMenuOpen ? 'cs-active' : ''}">
   <!--Nav Logo-->
   <a href="." {title} class="cs-logo" aria-label="back to home">
     <img
@@ -93,7 +93,7 @@
     <!-- svelte-ignore a11y-no-redundant-roles -->
     <nav class="cs-nav" role="navigation">
       <!--Mobile Nav Toggle-->
-      <button class="cs-toggle" aria-label="mobile menu toggle" on:click={() => isMenuOpen = !isMenuOpen}>
+      <button class="cs-toggle {isMenuOpen ? 'cs-active' : ''}" aria-label="mobile menu toggle" on:click={() => isMenuOpen = !isMenuOpen}>
         <div class="cs-box" aria-hidden="true">
           <span class="cs-line cs-line1" aria-hidden="true"></span>
           <span class="cs-line cs-line2" aria-hidden="true"></span>
