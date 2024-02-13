@@ -24,7 +24,7 @@
           <a href="about" class="cs-link">About</a>
         </li>
         <li class="cs-li">
-          <a href="service" class="cs-link">Service</a>
+          <a href="services" class="cs-link">Services</a>
         </li>
         <li class="cs-li">
           <a href="projects" class="cs-link">Projects</a>
