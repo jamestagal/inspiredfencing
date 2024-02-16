@@ -1,5 +1,5 @@
 default:
-   image: docker:stable
+   image: node:latest
 
 pages:
     before_script:
