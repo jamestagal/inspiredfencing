@@ -13,7 +13,7 @@ deploy_prod:
        - tar -zxvf *_linux_64-bit.tar.gz
        - ./plenti build
        - npm install netlify-cli -g
-        - netlify deploy --output ./public --site=${{ secrets.NETLIFY_SITE_ID }} --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --prod --timeout=600 --message "Deployed on $(date)"
+        - netlify deploy --output ./public --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --timeout=600 --message "Deployed on $(date)"
     artifacts:
       paths:
         - public
