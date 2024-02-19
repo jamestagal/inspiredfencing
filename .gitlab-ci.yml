@@ -11,9 +11,9 @@ deploy_prod:
   script:
     - wget -c $(curl -s https://api.github.com/repos/plentico/plenti/releases/latest | grep -o 'http.*linux_64-bit.tar.gz')
     - tar -zxvf *_linux_64-bit.tar.gz
-    - /plenti build
+    - ./plenti build
     - npm install netlify-cli -g
-    - netlify deploy --dir /public --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --timeout=600 --message "Deployed on $(date)"
+    - netlify deploy --dir ./public --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --timeout=600 --message "Deployed on $(date)"
   artifacts:
     paths:
       - public
