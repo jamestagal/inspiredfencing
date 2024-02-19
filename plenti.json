@@ -5,7 +5,6 @@
 		"testimonials":":filename"
 	},
 	"entrypoint_js": ":fingerprint",
-	"baseurl": "/inspiredfencing/",
 	"local": {
 		"port": 3000
 	}

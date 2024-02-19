@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
 
   <title>Home | Inspired Fencing</title>
-  <base href={env.baseurl} />
   <script type="module" src={`${env.entrypointJS}/core/main.js`}></script>
   <script type="module" src="js/nav.js"></script>
   <!-- Custom styles -->
