@@ -14,7 +14,7 @@ deploy_prod:
     - ./plenti build
     - cd /builds/jamestagal/inspiredfencing
     - npm install netlify-cli -g
-    - netlify deploy --output ./public --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --timeout=600 --message "Deployed on $(date)"
+    - netlify deploy --dir ./public --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --timeout=600 --message "Deployed on $(date)"
   artifacts:
     paths:
       - public
