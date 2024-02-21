@@ -19,7 +19,7 @@
   <!--Nav Logo-->
   <a href="." {title} class="cs-logo" aria-label="back to home">
     <img
-      src="media/images/logo.jpeg"
+      src="media/svg/inspiredfencing-logo-white.svg"
       alt="logo"
       width="210"
       height="29"

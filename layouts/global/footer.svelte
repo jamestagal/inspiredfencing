@@ -10,7 +10,7 @@
           class="cs-logo-img"
           loading="lazy"
           decoding="async"
-          src="media/images/logo.jpeg"
+          src="media/svg/inspiredfencing-logo-white.svg"
           alt="logo"
           width="209"
           height="40"
@@ -128,8 +128,8 @@
         </li>
       </ul>
       <span class="cs-copyright">
-        © Copyright 2024 - Designed & Developed By <a href="https://edtechdesigner.io/" class="cs-copyright-link" target="_blank"
-          >Plentify Web Designs (EdTech Designer)</a
+        © Copyright 2024 - Designed & Developed By <a href="." class="cs-copyright-link"
+          >Plentify Web Designs</a
         >
       </span>
       <div class="cs-flex">
