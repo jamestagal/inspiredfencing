@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="global.css" />
   </nonscript>
 
-  <link rel="icon" type="image/svg+xml" href="media/logo.svg" />
+  <link rel="icon" type="image/svg+xml" href="media/Plenti-logo.svg" />
   <link rel="stylesheet" href={`${env.entrypointJS}/bundle.css`} />
   <link
     rel="stylesheet preload"
