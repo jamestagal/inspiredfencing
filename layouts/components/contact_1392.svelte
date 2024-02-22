@@ -90,7 +90,7 @@
     {:else}
       <!--Form-->
       <form
-      on:submit|preventDefault={handleSubmit}
+      on:submit={handleSubmit}
         class="cs-form"
         id="cs-form-1392"
         name="Contact Form" 
