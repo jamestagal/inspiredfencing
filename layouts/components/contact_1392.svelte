@@ -141,7 +141,7 @@
             placeholder="Write a message..."
           ></textarea>
         </label>
-        <button class="cs-button-solid cs-submit" name="submit"
+        <button class="cs-button-solid cs-submit" type="submit"
           >{form.button}</button
         >
       </form>
