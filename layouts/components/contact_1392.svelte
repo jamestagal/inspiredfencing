@@ -99,7 +99,6 @@
         class="cs-form"
         id="cs-form-1392"
         name="Main Contact Form"
-        data-netlify-honeypot="bot-field"
         method="POST"
       >
         <h3 class="cs-h3">{form.title}</h3>
