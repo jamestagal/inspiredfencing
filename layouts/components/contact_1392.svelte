@@ -82,8 +82,7 @@
       <div class="thank-you">
         <h3 class="cs-title">Thank you for submitting a request!</h3>
         <p class="cs-text">
-          Look out for an email confirmation and I'll get in touch as soon as
-          possible
+          We'll get in touch as soon as possible.
         </p>
       </div>
     </div>
@@ -94,7 +93,8 @@
         data-netlify="true" 
         class="cs-form"
         id="cs-form-1392"
-        name="Main Contact Form" 
+        name="Main Contact Form"
+        data-netlify-honeypot="bot-field"
         method="POST"
       >
         <h3 class="cs-h3">{form.title}</h3>
@@ -157,7 +157,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20rem;
+    padding-bottom: 2rem;
   }
   .thank-you {
     background-color: #8fef8f;
