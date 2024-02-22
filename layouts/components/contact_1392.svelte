@@ -91,10 +91,10 @@
       <!--Form-->
       <form
       on:submit|preventDefault={handleSubmit}
-        action="https://docs.google.com/forms/d/e/1FAIpQLSfg_g5sp2AuOd1bDPe0G3geyjtduZPkoWU5eFfw-QTZRLhFEQ/formResponse"
         class="cs-form"
         id="cs-form-1392"
-        name="Contact Form"
+        name="Contact Form" 
+        netlify
         method="post"
       >
         <h3 class="cs-h3">{form.title}</h3>
@@ -104,8 +104,8 @@
             class="cs-input"
             required
             type="text"
-            id="name-1392"
-            name="entry.2005620554"
+            id="name"
+            name="name"
             placeholder="Your name"
           />
         </label>
@@ -115,8 +115,8 @@
             class="cs-input"
             required
             type="email"
-            id="email-1392"
-            name="entry.1045781291"
+            id="email"
+            name="email"
             placeholder="Your email"
           />
         </label>
@@ -126,8 +126,8 @@
             class="cs-input"
             required
             type="number"
-            id="phone-1392"
-            name="entry.1166974658"
+            id="phone"
+            name="phone"
             placeholder="Your phone number"
           />
         </label>
@@ -136,8 +136,8 @@
           <textarea
             class="cs-input cs-textarea"
             required
-            name="entry.839337160"
-            id="message-1392"
+            name="message"
+            id="message"
             placeholder="Write a message..."
           ></textarea>
         </label>
