@@ -91,11 +91,11 @@
       <!--Form-->
       <form
       on:submit={handleSubmit}
+        data-netlify="true" 
         class="cs-form"
         id="cs-form-1392"
-        name="Contact Form" 
-        netlify
-        method="post"
+        name="Main Contact Form" 
+        method="POST"
       >
         <h3 class="cs-h3">{form.title}</h3>
         <label class="cs-label">
