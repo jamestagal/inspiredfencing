@@ -1,6 +1,11 @@
 <script>
   export let subtitle, title, description, phone, email, address, form;
- 
+  let Fname ='';
+  let Femail ='';
+  let Fphone ='';
+  let Fmessage ='';
+
+
    let isFormSubmitted = false;
   
    function handleSubmit(event) {
@@ -99,8 +104,9 @@
       >
         <h3 class="cs-h3">{form.title}</h3>
         <label class="cs-label">
-          {form.name}
+         {form.name}
           <input
+           bind:value={Fname}
             class="cs-input"
             required
             type="text"
@@ -112,6 +118,7 @@
         <label class="cs-label cs-email">
           {form.email}
           <input
+            bind:value={Femail}
             class="cs-input"
             required
             type="email"
@@ -123,6 +130,7 @@
         <label class="cs-label cs-phone">
           {form.phone}
           <input
+            bind:value={Fphone}
             class="cs-input"
             required
             type="number"
@@ -134,6 +142,7 @@
         <label class="cs-label">
           {form.message}
           <textarea
+           bind:value={Fmessage}
             class="cs-input cs-textarea"
             required
             name="message"
