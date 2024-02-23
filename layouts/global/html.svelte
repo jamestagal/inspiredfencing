@@ -11,7 +11,7 @@
     hash = window.location.hash;
   });
 </script>
-
+<!DOCTYPE html>
 <html lang="en">
   <Head title={content.filename} {env} />
   <body>
