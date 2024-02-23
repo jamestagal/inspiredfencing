@@ -128,7 +128,7 @@
         </li>
       </ul>
       <span class="cs-copyright">
-        © Copyright 2024 - Designed & Developed By <a href="." class="cs-copyright-link"
+        © Copyright 2024 - Designed & Developed by <a href="." class="cs-copyright-link"
           >Plentify Web Designs</a
         >
       </span>
