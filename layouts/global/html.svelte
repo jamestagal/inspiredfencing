@@ -2,7 +2,7 @@
   import { onMount } from "svelte";
   import Login from "./login.svelte";
   import Head from "./head.svelte";
-  import Header from "./header_2.svelte";
+  import Header from "./header.svelte";
   import Footer from "./footer.svelte";
 
   export let content, layout, allContent, allLayouts, user, env;
