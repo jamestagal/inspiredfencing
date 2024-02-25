@@ -24,6 +24,7 @@
     >Fencing Expert in Mornington Peninsula & South East Melbourne | Inspired
     Fencing</title
   >
+  <base href={env.baseurl} />
   <!--Social Media Display-->
   <meta
     property="og:title"

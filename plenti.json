@@ -5,6 +5,7 @@
 		"testimonials":":filename"
 	},
 	"entrypoint_js": ":fingerprint",
+	"baseurl": "/",
 	"local": {
 		"port": 3000
 	}
