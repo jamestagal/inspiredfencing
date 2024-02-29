@@ -92,7 +92,7 @@
         data-netlify="true" 
         class="cs-form"
         id="cs-form-1392"
-        name="Main Contact Form"
+        name="Index Contact Form"
         method="POST"
         netlify-honeypot="bot-field"
       >
