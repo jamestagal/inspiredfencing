@@ -22,7 +22,7 @@
     <form
       data-netlify="true"
       id="cs-form-486"
-      name="Contact Us Form"
+      name="ContactUsPage"
       method="POST"
     >
       <h3 class="cs-h3">{form.title}</h3>

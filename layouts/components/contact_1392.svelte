@@ -92,7 +92,7 @@
         data-netlify="true" 
         class="cs-form"
         id="cs-form-1392"
-        name="Index Contact Form"
+        name="IndexForm"
         method="POST"
       >
         <h3 class="cs-h3">{form.title}</h3>
