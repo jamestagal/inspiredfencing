@@ -71,7 +71,7 @@
       </label>
       <label class="cs-label cs-label-message">
         {form.label2}
-        <select name="jobs" id="cs-select-486">
+        <select name="jobs" id="cs-select-486" form="cs-form-486">
           <option value="full renovation">{form.option1}</option>
           <option value="sod install">{form.option2}</option>
           <option value="yard cleanup">{form.option3}</option>
