@@ -24,13 +24,7 @@
       id="cs-form-486"
       name="Contact Us Form"
       method="POST"
-      netlify-honeypot="bot-field"
     >
-      <p class="hidden">
-        <label>
-          Don’t fill this out if you’re human: <input name="bot-field" />
-        </label>
-      </p>
       <h3 class="cs-h3">{form.title}</h3>
       <label class="cs-label">
         {form.name}
@@ -75,7 +69,7 @@
           placeholder={form.label1}
         />
       </label>
-<!--       <label class="cs-label cs-label-message">
+      <label class="cs-label cs-label-message">
         {form.label2}
         <select name="jobs" id="cs-select-486">
           <option value="full renovation">{form.option1}</option>
@@ -83,7 +77,7 @@
           <option value="yard cleanup">{form.option3}</option>
           <option value="landscape design">{form.option4}</option>
         </select>
-      </label> -->
+      </label>
       <button class="cs-button-solid cs-submit" type="submit"
         >{form.button}</button
       >

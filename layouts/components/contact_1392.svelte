@@ -94,13 +94,7 @@
         id="cs-form-1392"
         name="Index Contact Form"
         method="POST"
-        netlify-honeypot="bot-field"
       >
-      <p class="hidden">
-        <label>
-          Don’t fill this out if you’re human: <input name="bot-field" />
-        </label>
-      </p>
         <h3 class="cs-h3">{form.title}</h3>
         <label class="cs-label">
          {form.name}
