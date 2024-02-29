@@ -20,11 +20,12 @@
     </div>
     <!--Form-->
     <form
-      data-netlify="true"
       id="cs-form-486"
-      name="ContactUsPage"
       method="POST"
+      name="ContactUsPage"
+      data-netlify="true"
     >
+    <input type="hidden" name="form-name" value="ContactUsPage">
       <h3 class="cs-h3">{form.title}</h3>
       <label class="cs-label">
         {form.name}

@@ -89,12 +89,13 @@
     {:else} -->
       <!--Form-->
       <form
-        data-netlify="true" 
         class="cs-form"
+        method="POST"
         id="cs-form-1392"
         name="IndexForm"
-        method="POST"
+        data-netlify="true" 
       >
+      <input type="hidden" name="form-name" value="IndexForm">
         <h3 class="cs-h3">{form.title}</h3>
         <label class="cs-label">
          {form.name}
