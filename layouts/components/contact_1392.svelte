@@ -94,7 +94,13 @@
         id="cs-form-1392"
         name="Main Contact Form"
         method="POST"
+        netlify-honeypot="bot-field"
       >
+      <p class="hidden">
+        <label>
+          Don’t fill this out if you’re human: <input name="bot-field" />
+        </label>
+      </p>
         <h3 class="cs-h3">{form.title}</h3>
         <label class="cs-label">
          {form.name}
@@ -161,5 +167,8 @@
     background-color: #8fef8f;
     border: 2px dashed rgb(30, 186, 30);
     padding: 1em 2em;
+  }
+  .hidden {
+  display: none;
   }
 </style>
