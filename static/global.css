@@ -1186,7 +1186,7 @@
     overflow: hidden;
     margin: 0;
     color: #fff;
-    padding: 0 3rem;
+    /*padding: 0 3rem;*/
     border-radius: 0.25rem;
     background-color: var(--primary);
     display: inline-block;
