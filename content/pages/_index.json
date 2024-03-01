@@ -90,6 +90,10 @@
 						"url": "media/svg/replace-svgrepo-com.svg",
 						"alt": "Replace icon"
 					}
+				},
+				"button": {
+					"title": "Our services",
+					"url": "services"
 				}
 			}
 		},

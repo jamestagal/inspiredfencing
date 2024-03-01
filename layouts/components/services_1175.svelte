@@ -1,5 +1,5 @@
 <script>
-    export let title, subtitle, description, card1, card2, card3, card4;
+    export let title, subtitle, description, card1, card2, card3, card4, button;
   </script>
   
 <!-- ============================================ -->
@@ -22,7 +22,7 @@
                         src="{card1.icon.url}" alt="{card1.icon.alt}"
                         width="48" height="48" />
                 </picture>
-                <h3 class="cs-h3">{card1.title}</h3>
+                <h2 class="cs-h2">{card1.title}</h2>
                 <p class="cs-item-text">
                     {card1.description}
                 </p>
@@ -39,7 +39,7 @@
                         src="{card2.icon.url}" alt="{card1.icon.alt}" width="48"
                         height="48" />
                 </picture>
-                <h3 class="cs-h3">{card2.title}</h3>
+                <h2 class="cs-h2">{card2.title}</h2>
                 <p class="cs-item-text">
                     {card2.description}
                 </p>
@@ -56,7 +56,7 @@
                         src="{card3.icon.url}" alt="{card3.icon.alt}" width="48"
                         height="48" />
                 </picture>
-                <h3 class="cs-h3">{card3.title}</h3>
+                <h2 class="cs-h2">{card3.title}</h2>
                 <p class="cs-item-text">
                     {card3.description}
                 </p>
@@ -73,7 +73,7 @@
                         src="{card4.icon.url}" alt="{card4.icon.alt}" width="48"
                         height="48" />
                 </picture>
-                <h3 class="cs-h3">{card4.title}</h3>
+                <h2 class="cs-h2">{card4.title}</h2>
                 <p class="cs-item-text">
                     {card4.description}
                 </p>
@@ -85,106 +85,6 @@
                 </a> -->
             </li>
         </ul>
-        <a href="." class="btn mt20"> our services</a>
+        <a class="cs-button-solid" aria-label="learn more about our programs" href="{button.url}">{button.title}</a>
     </div>
 </section>
-
-<style>
-    *,
-    ::after,
-    ::before {
-      box-sizing: border-box;
-    }
-  
-    a {
-      text-decoration: none;
-    }
-  
-    .btn {
-      background-color: #73b21a;
-      border: 2px solid #73b21a;
-      color: #fff;
-      cursor: pointer;
-      display: inline-block;
-      font-weight: 400;
-      height: 49px;
-      letter-spacing: 1px;
-      line-height: 49px;
-      margin-bottom: 0;
-      outline: 0;
-      padding: 0 30px;
-      text-align: center;
-      text-transform: uppercase;
-      text-wrap: nowrap;
-      touch-action: manipulation;
-      transition: all 300ms ease-in-out;
-      transition-behavior: normal;
-      user-select: none;
-      vertical-align: top;
-      white-space-collapse: collapse;
-      z-index: 0;
-    }
-  
-    .mt20 {
-      margin-top: 20px;
-    }
-  
-    @media only screen and (max-width: 1169px) {
-      .btn {
-        height: 40px;
-        line-height: 38px;
-        padding: 0 15px;
-      }
-    }
-  
-    @media only screen and (max-width: 767px) {
-      .btn {
-        letter-spacing: 0;
-        text-transform: capitalize;
-      }
-    }
-  
-    a.btn {
-      border-radius: 0;
-      font-family: latobold;
-      font-size: 15px;
-    }
-    .btn:is(:focus, :hover) {
-      text-decoration: none;
-    }
-    /*   .btn:focus,
-    .btn:hover {
-      text-decoration: none;
-    } */
-  
-    .btn:active {
-      background-image: none;
-      box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
-      outline: 0;
-    }
-  
-    .btn:is(active:focus, :focus)
-    {
-      outline-offset: -2px;
-    }
-  /*   .btn:active:focus,
-    .btn:focus {
-      outline-offset: -2px;
-    } */
-  
-    .btn:is(active:focus, :focus, :hover) {
-      background-color: #fff;
-      border-color: #73b21a;
-      color: #73b21a;
-      outline: 0;
-    }
-    /*  .btn:active:focus,
-    .btn:focus,
-    .btn:hover {
-      background-color: #fff;
-      border-color: #73b21a;
-      color: #73b21a;
-      outline: 0;
-    } */
-  </style>
-  
