@@ -14,15 +14,15 @@
         <div class="cs-gallery">
             <!--Picture 1-->
             <picture class="cs-image">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Images/MISC/protest-sign.jpeg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.digitaloceanspaces.com/Images/MISC/protest-sign.jpeg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Images/MISC/protest-sign.jpeg" alt="gallery" width="305" height="400">
+                <source media="(max-width: 600px)" srcset="media/images/gallery/IMG_8704.jpeg">
+                <source media="(min-width: 601px)" srcset="media/images/gallery/IMG_8704.jpeg">
+                <img loading="lazy" decoding="async" src="media/images/gallery/IMG_8704.jpeg" alt="gallery" width="381" height="400">
             </picture>
             <!--Picture 2-->
             <picture class="cs-image">
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/melting-ice.jpeg">
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/melting-ice.jpeg">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Landscapes/melting-ice.jpeg" alt="gallery" width="305" height="400">
+                <source media="(max-width: 600px)" srcset="media/images/gallery/IMG_8705.jpeg">
+                <source media="(min-width: 601px)" srcset="media/images/gallery/IMG_8705.jpeg">
+                <img loading="lazy" decoding="async" src="media/images/gallery/IMG_8705.jpeg" alt="gallery" width="381" height="400">
             </picture>
             <!--Picture 3-->
             <picture class="cs-image">
