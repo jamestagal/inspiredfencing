@@ -128,8 +128,8 @@
         </li>
       </ul>
       <span class="cs-copyright">
-        © Copyright 2024 - Designed & Developed by <a href="." class="cs-copyright-link"
-          >Plentify Web Designs</a
+        © Copyright 2024 - Designed & Developed <a href="." class="cs-copyright-link"
+          > by Plentify Web Designs</a
         >
       </span>
       <div class="cs-flex">
